@@ -1,0 +1,263 @@
+[
+    {
+      "id": 1,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "Which document outlines how a business will continue operating during an unplanned disruption?",
+      "options": {
+        "A": "Incident Response Plan",
+        "B": "Business Continuity Plan",
+        "C": "Disaster Recovery Plan",
+        "D": "Security Policy"
+      },
+      "answer": "B",
+      "explanation": "A Business Continuity Plan describes how critical operations will continue during and after a disruption."
+    },
+    {
+      "id": 2,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "What is the primary goal of a Disaster Recovery Plan?",
+      "options": {
+        "A": "Prevent attacks",
+        "B": "Restore IT systems and data after a disaster",
+        "C": "Identify threats",
+        "D": "Train employees on security"
+      },
+      "answer": "B",
+      "explanation": "Disaster Recovery Plans focus on restoring systems, applications, and data to operational status after an incident."
+    },
+    {
+      "id": 3,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "Which metric defines the maximum acceptable amount of data loss measured in time?",
+      "options": {
+        "A": "Recovery Time Objective (RTO)",
+        "B": "Mean Time to Repair (MTTR)",
+        "C": "Recovery Point Objective (RPO)",
+        "D": "Service Level Agreement (SLA)"
+      },
+      "answer": "C",
+      "explanation": "The RPO defines how far back in time data can be restored without significant impact."
+    },
+    {
+      "id": 4,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "During an incident, which team is responsible for containing the threat and restoring services?",
+      "options": {
+        "A": "Help Desk",
+        "B": "Incident Response Team",
+        "C": "Legal Department",
+        "D": "Finance Department"
+      },
+      "answer": "B",
+      "explanation": "Incident Response Teams are trained to contain, eradicate, and recover from incidents."
+    },
+    {
+      "id": 5,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "What is the first phase of the incident response lifecycle?",
+      "options": {
+        "A": "Containment",
+        "B": "Preparation",
+        "C": "Eradication",
+        "D": "Recovery"
+      },
+      "answer": "B",
+      "explanation": "Preparation involves creating plans, training staff, and setting up tools before incidents occur."
+    },
+    {
+      "id": 6,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "An organization needs to ensure that critical systems are back online within 4 hours after a disaster. This requirement refers to:",
+      "options": {
+        "A": "RPO",
+        "B": "RTO",
+        "C": "SLA",
+        "D": "BCP"
+      },
+      "answer": "B",
+      "explanation": "The Recovery Time Objective (RTO) specifies the maximum acceptable downtime after an incident."
+    },
+    {
+      "id": 7,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "Which type of backup stores only the files that have changed since the last backup of any type?",
+      "options": {
+        "A": "Full backup",
+        "B": "Differential backup",
+        "C": "Incremental backup",
+        "D": "Snapshot backup"
+      },
+      "answer": "C",
+      "explanation": "Incremental backups save only files changed since the last backup of any kind, making them faster and smaller."
+    },
+    {
+      "id": 8,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "What does 'hot site' mean in disaster recovery?",
+      "options": {
+        "A": "A site with partial infrastructure that needs setup",
+        "B": "A fully operational backup site ready for immediate use",
+        "C": "A temporary office space",
+        "D": "A data backup server in the cloud"
+      },
+      "answer": "B",
+      "explanation": "A hot site is a fully equipped location that can take over operations immediately after a disaster."
+    },
+    {
+      "id": 9,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "After restoring systems from backup, what should be done before going live?",
+      "options": {
+        "A": "Test the restored systems",
+        "B": "Train users",
+        "C": "Shut down the backup site",
+        "D": "Disable incident logging"
+      },
+      "answer": "A",
+      "explanation": "Testing ensures the restored systems work correctly and securely before resuming operations."
+    },
+    {
+      "id": 10,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "Which exercise simulates an actual disaster to test the effectiveness of recovery plans?",
+      "options": {
+        "A": "Tabletop exercise",
+        "B": "Functional exercise",
+        "C": "Checklist review",
+        "D": "Gap analysis"
+      },
+      "answer": "B",
+      "explanation": "A functional exercise is a hands-on simulation that tests recovery capabilities in real time."
+    },
+    {
+      "id": 11,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "What is the main difference between a Business Continuity Plan (BCP) and a Disaster Recovery Plan (DRP)?",
+      "options": {
+        "A": "BCP is technical, DRP is business-oriented",
+        "B": "BCP focuses on continuing operations, DRP on restoring IT systems",
+        "C": "BCP is for natural disasters only, DRP for cyber incidents",
+        "D": "There is no difference"
+      },
+      "answer": "B",
+      "explanation": "BCP ensures ongoing operations during disruptions, while DRP focuses on restoring IT systems and data."
+    },
+    {
+      "id": 12,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "Which incident response phase includes identifying lessons learned?",
+      "options": {
+        "A": "Recovery",
+        "B": "Post-incident activity",
+        "C": "Containment",
+        "D": "Detection"
+      },
+      "answer": "B",
+      "explanation": "Post-incident activity involves reviewing what happened, improving plans, and preventing recurrence."
+    },
+    {
+      "id": 13,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "Which term refers to the maximum tolerable period an organization can be without a specific service?",
+      "options": {
+        "A": "RPO",
+        "B": "MTTR",
+        "C": "RTO",
+        "D": "MTBF"
+      },
+      "answer": "C",
+      "explanation": "The RTO sets the maximum allowable downtime for a service."
+    },
+    {
+      "id": 14,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "Which plan specifically addresses communication during an incident?",
+      "options": {
+        "A": "Incident Communication Plan",
+        "B": "Security Policy",
+        "C": "DRP",
+        "D": "BCP"
+      },
+      "answer": "A",
+      "explanation": "An Incident Communication Plan ensures the right information reaches the right people during a crisis."
+    },
+    {
+      "id": 15,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "A tabletop exercise is best described as:",
+      "options": {
+        "A": "Full system shutdown and recovery",
+        "B": "Discussion-based walkthrough of a plan",
+        "C": "Replacing equipment after a disaster",
+        "D": "Offsite data restoration"
+      },
+      "answer": "B",
+      "explanation": "A tabletop exercise involves team members discussing their roles in a simulated disaster scenario."
+    },
+    {
+      "id": 16,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "Why is it important to classify incidents by severity?",
+      "options": {
+        "A": "To prioritize response efforts and allocate resources",
+        "B": "To determine legal liability",
+        "C": "To comply with HR policy",
+        "D": "To increase insurance premiums"
+      },
+      "answer": "A",
+      "explanation": "Severity classification helps organizations respond effectively by focusing on the most critical incidents first."
+    },
+    {
+      "id": 17,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "Which type of site is the least expensive but takes the longest to become operational?",
+      "options": {
+        "A": "Hot site",
+        "B": "Warm site",
+        "C": "Cold site",
+        "D": "Mobile site"
+      },
+      "answer": "C",
+      "explanation": "Cold sites have basic infrastructure but no active systems, making them cheap but slow to activate."
+    },
+    {
+      "id": 18,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "Which backup type results in the fastest data restoration?",
+      "options": {
+        "A": "Full backup",
+        "B": "Incremental backup",
+        "C": "Differential backup",
+        "D": "Mirror backup"
+      },
+      "answer": "A",
+      "explanation": "Full backups contain all data, so restoration is straightforward and fast compared to other methods."
+    },
+    {
+      "id": 19,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "What is the purpose of an incident detection system?",
+      "options": {
+        "A": "Prevent incidents from occurring",
+        "B": "Identify potential or actual security events",
+        "C": "Recover lost data",
+        "D": "Communicate with customers"
+      },
+      "answer": "B",
+      "explanation": "Incident detection systems identify abnormal events for further investigation."
+    },
+    {
+      "id": 20,
+      "domain": "Business Continuity, Disaster Recovery & Incident Response Concepts",
+      "question": "Which is the last step in the incident response lifecycle?",
+      "options": {
+        "A": "Containment",
+        "B": "Eradication",
+        "C": "Lessons learned",
+        "D": "Detection"
+      },
+      "answer": "C",
+      "explanation": "The final step is to review the incident, document lessons learned, and improve processes."
+    }
+  ]
+  

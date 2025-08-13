@@ -1,0 +1,5 @@
+package com.cyberquiz.cybersecurity_quiz_platform
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity()

@@ -1,0 +1,263 @@
+[
+    {
+      "id": 1,
+      "domain": "Access Controls Concepts",
+      "question": "Which access control model assigns permissions based on a user's job function?",
+      "options": {
+        "A": "Discretionary Access Control (DAC)",
+        "B": "Mandatory Access Control (MAC)",
+        "C": "Role-Based Access Control (RBAC)",
+        "D": "Attribute-Based Access Control (ABAC)"
+      },
+      "answer": "C",
+      "explanation": "RBAC assigns permissions according to predefined roles, making it easier to manage large groups of users."
+    },
+    {
+      "id": 2,
+      "domain": "Access Controls Concepts",
+      "question": "In Discretionary Access Control (DAC), who determines access permissions?",
+      "options": {
+        "A": "System administrator",
+        "B": "Data owner",
+        "C": "Security officer",
+        "D": "Government regulator"
+      },
+      "answer": "B",
+      "explanation": "In DAC, the data owner decides who can access their resources."
+    },
+    {
+      "id": 3,
+      "domain": "Access Controls Concepts",
+      "question": "Which authentication factor is represented by a password?",
+      "options": {
+        "A": "Something you have",
+        "B": "Something you are",
+        "C": "Something you know",
+        "D": "Somewhere you are"
+      },
+      "answer": "C",
+      "explanation": "Passwords are a knowledge-based factor — something you know."
+    },
+    {
+      "id": 4,
+      "domain": "Access Controls Concepts",
+      "question": "Biometric authentication falls under which factor?",
+      "options": {
+        "A": "Something you know",
+        "B": "Something you have",
+        "C": "Something you are",
+        "D": "Somewhere you are"
+      },
+      "answer": "C",
+      "explanation": "Biometrics like fingerprints or facial recognition are 'something you are'."
+    },
+    {
+      "id": 5,
+      "domain": "Access Controls Concepts",
+      "question": "Which is an example of multi-factor authentication?",
+      "options": {
+        "A": "Password and PIN",
+        "B": "Fingerprint and facial recognition",
+        "C": "Smart card and PIN",
+        "D": "Username and password"
+      },
+      "answer": "C",
+      "explanation": "Multi-factor requires different categories of factors — a smart card (something you have) plus a PIN (something you know)."
+    },
+    {
+      "id": 6,
+      "domain": "Access Controls Concepts",
+      "question": "Mandatory Access Control (MAC) is often used in which environment?",
+      "options": {
+        "A": "Government and military",
+        "B": "Retail businesses",
+        "C": "Small startups",
+        "D": "Social media platforms"
+      },
+      "answer": "A",
+      "explanation": "MAC is common in high-security environments like military and government organizations."
+    },
+    {
+      "id": 7,
+      "domain": "Access Controls Concepts",
+      "question": "Which access control concept limits a user's access rights to only what is necessary for their job?",
+      "options": {
+        "A": "Separation of duties",
+        "B": "Need to know",
+        "C": "Least privilege",
+        "D": "Role-based assignment"
+      },
+      "answer": "C",
+      "explanation": "Least privilege ensures users have the minimum access needed to perform their duties."
+    },
+    {
+      "id": 8,
+      "domain": "Access Controls Concepts",
+      "question": "An access control list (ACL) is used to:",
+      "options": {
+        "A": "Store passwords securely",
+        "B": "Track failed logins",
+        "C": "Define which users or systems can access an object",
+        "D": "Encrypt sensitive files"
+      },
+      "answer": "C",
+      "explanation": "An ACL lists permissions associated with a resource."
+    },
+    {
+      "id": 9,
+      "domain": "Access Controls Concepts",
+      "question": "What is the primary purpose of separation of duties?",
+      "options": {
+        "A": "Reduce system downtime",
+        "B": "Prevent fraud or error by dividing responsibilities",
+        "C": "Increase productivity",
+        "D": "Improve password complexity"
+      },
+      "answer": "B",
+      "explanation": "Separation of duties ensures no single individual has full control over a critical function."
+    },
+    {
+      "id": 10,
+      "domain": "Access Controls Concepts",
+      "question": "Which of the following is an example of 'something you have'?",
+      "options": {
+        "A": "Password",
+        "B": "Smart card",
+        "C": "Fingerprint",
+        "D": "Security question answer"
+      },
+      "answer": "B",
+      "explanation": "A smart card is a possession-based authentication factor."
+    },
+    {
+      "id": 11,
+      "domain": "Access Controls Concepts",
+      "question": "What does single sign-on (SSO) allow a user to do?",
+      "options": {
+        "A": "Access multiple systems with one set of credentials",
+        "B": "Log into only one system at a time",
+        "C": "Bypass authentication requirements",
+        "D": "Change passwords automatically"
+      },
+      "answer": "A",
+      "explanation": "SSO allows one login session to grant access to multiple systems."
+    },
+    {
+      "id": 12,
+      "domain": "Access Controls Concepts",
+      "question": "Which control type enforces rules about who can access what based on policies set by a central authority?",
+      "options": {
+        "A": "MAC",
+        "B": "DAC",
+        "C": "RBAC",
+        "D": "ABAC"
+      },
+      "answer": "A",
+      "explanation": "Mandatory Access Control uses centrally defined security policies that cannot be changed by users."
+    },
+    {
+      "id": 13,
+      "domain": "Access Controls Concepts",
+      "question": "A company requires all employees to swipe their badge and enter a PIN to access the server room. This is an example of:",
+      "options": {
+        "A": "Two-factor authentication",
+        "B": "Single-factor authentication",
+        "C": "MAC",
+        "D": "RBAC"
+      },
+      "answer": "A",
+      "explanation": "Badge (something you have) + PIN (something you know) constitutes two-factor authentication."
+    },
+    {
+      "id": 14,
+      "domain": "Access Controls Concepts",
+      "question": "Which access control model is most flexible and can evaluate multiple attributes before granting access?",
+      "options": {
+        "A": "DAC",
+        "B": "MAC",
+        "C": "RBAC",
+        "D": "ABAC"
+      },
+      "answer": "D",
+      "explanation": "Attribute-Based Access Control uses multiple attributes such as location, time, and device type."
+    },
+    {
+      "id": 15,
+      "domain": "Access Controls Concepts",
+      "question": "Which term describes verifying the identity of a user or device?",
+      "options": {
+        "A": "Authentication",
+        "B": "Authorization",
+        "C": "Accounting",
+        "D": "Auditing"
+      },
+      "answer": "A",
+      "explanation": "Authentication confirms an identity before access is granted."
+    },
+    {
+      "id": 16,
+      "domain": "Access Controls Concepts",
+      "question": "In the AAA framework, which function determines what resources a user can access?",
+      "options": {
+        "A": "Authentication",
+        "B": "Authorization",
+        "C": "Accounting",
+        "D": "Auditing"
+      },
+      "answer": "B",
+      "explanation": "Authorization defines the access level and permissions granted to an authenticated user."
+    },
+    {
+      "id": 17,
+      "domain": "Access Controls Concepts",
+      "question": "Which of the following is an example of logical access control?",
+      "options": {
+        "A": "Security guard",
+        "B": "Username and password",
+        "C": "Locked door",
+        "D": "Fencing"
+      },
+      "answer": "B",
+      "explanation": "Logical access controls are implemented through software and credentials."
+    },
+    {
+      "id": 18,
+      "domain": "Access Controls Concepts",
+      "question": "What is the purpose of access recertification?",
+      "options": {
+        "A": "Ensure users still need and have appropriate access rights",
+        "B": "Install new access control systems",
+        "C": "Issue temporary credentials",
+        "D": "Improve password complexity"
+      },
+      "answer": "A",
+      "explanation": "Access recertification periodically verifies that user permissions are still appropriate."
+    },
+    {
+      "id": 19,
+      "domain": "Access Controls Concepts",
+      "question": "Which principle requires multiple approvals before granting high-level access?",
+      "options": {
+        "A": "Dual control",
+        "B": "Least privilege",
+        "C": "Need to know",
+        "D": "MAC"
+      },
+      "answer": "A",
+      "explanation": "Dual control requires two or more people to authorize critical actions."
+    },
+    {
+      "id": 20,
+      "domain": "Access Controls Concepts",
+      "question": "Which is the strongest form of authentication?",
+      "options": {
+        "A": "Password",
+        "B": "Two-factor authentication",
+        "C": "Single sign-on",
+        "D": "Security questions"
+      },
+      "answer": "B",
+      "explanation": "Two-factor authentication provides stronger security than single methods."
+    }
+  ]
+  

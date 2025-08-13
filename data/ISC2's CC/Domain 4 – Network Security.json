@@ -1,0 +1,263 @@
+[
+    {
+      "id": 1,
+      "domain": "Network Security",
+      "question": "What is the primary purpose of a firewall?",
+      "options": {
+        "A": "To scan for viruses",
+        "B": "To filter incoming and outgoing network traffic",
+        "C": "To encrypt data",
+        "D": "To monitor employee activity"
+      },
+      "answer": "B",
+      "explanation": "A firewall monitors and filters network traffic based on defined security rules."
+    },
+    {
+      "id": 2,
+      "domain": "Network Security",
+      "question": "Which device connects multiple networks and directs data packets between them?",
+      "options": {
+        "A": "Switch",
+        "B": "Router",
+        "C": "Hub",
+        "D": "Repeater"
+      },
+      "answer": "B",
+      "explanation": "Routers connect different networks and route data packets accordingly."
+    },
+    {
+      "id": 3,
+      "domain": "Network Security",
+      "question": "What does VPN stand for and what is its main function?",
+      "options": {
+        "A": "Virtual Private Network; encrypts data over public networks",
+        "B": "Virtual Protocol Network; speeds up internet",
+        "C": "Variable Public Network; controls bandwidth",
+        "D": "Verified Private Network; blocks malware"
+      },
+      "answer": "A",
+      "explanation": "A VPN creates a secure encrypted connection over a public network, such as the internet."
+    },
+    {
+      "id": 4,
+      "domain": "Network Security",
+      "question": "Which protocol is commonly used to securely transfer files over a network?",
+      "options": {
+        "A": "FTP",
+        "B": "HTTP",
+        "C": "SFTP",
+        "D": "SMTP"
+      },
+      "answer": "C",
+      "explanation": "SFTP (Secure FTP) encrypts file transfers for security."
+    },
+    {
+      "id": 5,
+      "domain": "Network Security",
+      "question": "What is the function of an Intrusion Detection System (IDS)?",
+      "options": {
+        "A": "To prevent unauthorized access",
+        "B": "To detect and alert on potential intrusions",
+        "C": "To backup network data",
+        "D": "To authenticate users"
+      },
+      "answer": "B",
+      "explanation": "An IDS monitors network traffic for suspicious activity and alerts administrators."
+    },
+    {
+      "id": 6,
+      "domain": "Network Security",
+      "question": "Which attack involves intercepting and possibly altering communication between two parties without their knowledge?",
+      "options": {
+        "A": "Phishing",
+        "B": "Man-in-the-Middle (MITM)",
+        "C": "Denial of Service (DoS)",
+        "D": "Brute force"
+      },
+      "answer": "B",
+      "explanation": "MITM attacks intercept communications to eavesdrop or alter messages."
+    },
+    {
+      "id": 7,
+      "domain": "Network Security",
+      "question": "What does the term 'port' refer to in networking?",
+      "options": {
+        "A": "A physical connection point on a device",
+        "B": "A logical communication endpoint for network services",
+        "C": "An IP address",
+        "D": "A firewall rule"
+      },
+      "answer": "B",
+      "explanation": "Ports identify specific processes or services on devices over a network."
+    },
+    {
+      "id": 8,
+      "domain": "Network Security",
+      "question": "Which network device operates at Layer 2 (Data Link layer) of the OSI model and forwards data based on MAC addresses?",
+      "options": {
+        "A": "Router",
+        "B": "Switch",
+        "C": "Firewall",
+        "D": "Hub"
+      },
+      "answer": "B",
+      "explanation": "Switches forward frames based on MAC addresses to reduce network collisions."
+    },
+    {
+      "id": 9,
+      "domain": "Network Security",
+      "question": "Which protocol is used to assign IP addresses automatically on a network?",
+      "options": {
+        "A": "DNS",
+        "B": "DHCP",
+        "C": "FTP",
+        "D": "HTTP"
+      },
+      "answer": "B",
+      "explanation": "DHCP automatically assigns IP addresses to devices on a network."
+    },
+    {
+      "id": 10,
+      "domain": "Network Security",
+      "question": "What does SSL/TLS provide for network communications?",
+      "options": {
+        "A": "Authentication and encryption",
+        "B": "Data backup",
+        "C": "Traffic filtering",
+        "D": "Malware scanning"
+      },
+      "answer": "A",
+      "explanation": "SSL/TLS protocols encrypt data and verify the identity of communicating parties."
+    },
+    {
+      "id": 11,
+      "domain": "Network Security",
+      "question": "Which type of attack floods a network or system with excessive traffic to make it unavailable?",
+      "options": {
+        "A": "Phishing",
+        "B": "Denial of Service (DoS)",
+        "C": "SQL Injection",
+        "D": "Spoofing"
+      },
+      "answer": "B",
+      "explanation": "DoS attacks overwhelm resources to deny service to legitimate users."
+    },
+    {
+      "id": 12,
+      "domain": "Network Security",
+      "question": "Which device combines firewall, VPN, and routing functions in a single appliance?",
+      "options": {
+        "A": "Modem",
+        "B": "Unified Threat Management (UTM)",
+        "C": "Hub",
+        "D": "Switch"
+      },
+      "answer": "B",
+      "explanation": "UTM devices consolidate multiple security functions into one device."
+    },
+    {
+      "id": 13,
+      "domain": "Network Security",
+      "question": "What is a DMZ (Demilitarized Zone) in network security?",
+      "options": {
+        "A": "An isolated network segment between internal and external networks",
+        "B": "A type of firewall",
+        "C": "A VPN tunnel",
+        "D": "A malware scanning tool"
+      },
+      "answer": "A",
+      "explanation": "A DMZ hosts public-facing services and acts as a buffer zone between trusted and untrusted networks."
+    },
+    {
+      "id": 14,
+      "domain": "Network Security",
+      "question": "Which protocol is used to translate domain names into IP addresses?",
+      "options": {
+        "A": "DHCP",
+        "B": "DNS",
+        "C": "HTTP",
+        "D": "FTP"
+      },
+      "answer": "B",
+      "explanation": "DNS resolves human-readable domain names to IP addresses."
+    },
+    {
+      "id": 15,
+      "domain": "Network Security",
+      "question": "What is the main purpose of network segmentation?",
+      "options": {
+        "A": "Increase network speed",
+        "B": "Divide a network into smaller parts to improve security",
+        "C": "Backup network data",
+        "D": "Assign IP addresses"
+      },
+      "answer": "B",
+      "explanation": "Segmentation limits the spread of attacks by dividing networks into isolated segments."
+    },
+    {
+      "id": 16,
+      "domain": "Network Security",
+      "question": "Which protocol provides encrypted remote command-line access to a device?",
+      "options": {
+        "A": "Telnet",
+        "B": "SSH",
+        "C": "FTP",
+        "D": "HTTP"
+      },
+      "answer": "B",
+      "explanation": "SSH encrypts remote sessions, unlike Telnet, which is unencrypted."
+    },
+    {
+      "id": 17,
+      "domain": "Network Security",
+      "question": "What does NAT (Network Address Translation) do?",
+      "options": {
+        "A": "Converts private IP addresses to public IP addresses",
+        "B": "Encrypts network traffic",
+        "C": "Scans for malware",
+        "D": "Blocks unauthorized access"
+      },
+      "answer": "A",
+      "explanation": "NAT allows multiple devices on a private network to share a single public IP address."
+    },
+    {
+      "id": 18,
+      "domain": "Network Security",
+      "question": "Which type of wireless security protocol is currently considered most secure?",
+      "options": {
+        "A": "WEP",
+        "B": "WPA",
+        "C": "WPA2",
+        "D": "WPA3"
+      },
+      "answer": "D",
+      "explanation": "WPA3 is the latest and most secure wireless encryption protocol."
+    },
+    {
+      "id": 19,
+      "domain": "Network Security",
+      "question": "What is the function of a proxy server in network security?",
+      "options": {
+        "A": "Directs network traffic between users and the internet, providing anonymity",
+        "B": "Encrypts all data on the network",
+        "C": "Assigns IP addresses to devices",
+        "D": "Detects malware infections"
+      },
+      "answer": "A",
+      "explanation": "Proxy servers act as intermediaries to mask user IP addresses and control web access."
+    },
+    {
+      "id": 20,
+      "domain": "Network Security",
+      "question": "Which of the following is a common method used to prevent replay attacks?",
+      "options": {
+        "A": "Using strong passwords",
+        "B": "Timestamps and nonces",
+        "C": "Antivirus software",
+        "D": "Network segmentation"
+      },
+      "answer": "B",
+      "explanation": "Timestamps and nonces ensure messages cannot be resent or reused maliciously."
+    }
+  ]
+  

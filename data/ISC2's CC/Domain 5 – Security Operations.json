@@ -1,0 +1,263 @@
+[
+    {
+      "id": 1,
+      "domain": "Security Operations",
+      "question": "What is the primary goal of security operations?",
+      "options": {
+        "A": "Develop software",
+        "B": "Monitor and protect an organization’s IT infrastructure",
+        "C": "Manage employee schedules",
+        "D": "Sell cybersecurity products"
+      },
+      "answer": "B",
+      "explanation": "Security operations focus on continuous monitoring and protection of IT assets."
+    },
+    {
+      "id": 2,
+      "domain": "Security Operations",
+      "question": "What does SIEM stand for?",
+      "options": {
+        "A": "Security Information and Event Management",
+        "B": "System Integrated Event Monitor",
+        "C": "Secure Internet Email Method",
+        "D": "Standard Information Event Metrics"
+      },
+      "answer": "A",
+      "explanation": "SIEM systems collect and analyze security data from various sources to detect threats."
+    },
+    {
+      "id": 3,
+      "domain": "Security Operations",
+      "question": "What is the purpose of an incident response plan?",
+      "options": {
+        "A": "To prevent all attacks",
+        "B": "To outline steps to identify, contain, and recover from security incidents",
+        "C": "To install software updates",
+        "D": "To schedule staff meetings"
+      },
+      "answer": "B",
+      "explanation": "An incident response plan helps organizations manage and recover from security breaches effectively."
+    },
+    {
+      "id": 4,
+      "domain": "Security Operations",
+      "question": "Which term describes the process of analyzing security logs to identify suspicious activity?",
+      "options": {
+        "A": "Penetration testing",
+        "B": "Log analysis",
+        "C": "Phishing",
+        "D": "Encryption"
+      },
+      "answer": "B",
+      "explanation": "Log analysis involves reviewing logs to detect security events or anomalies."
+    },
+    {
+      "id": 5,
+      "domain": "Security Operations",
+      "question": "What is the first step in the incident response lifecycle?",
+      "options": {
+        "A": "Containment",
+        "B": "Recovery",
+        "C": "Preparation",
+        "D": "Eradication"
+      },
+      "answer": "C",
+      "explanation": "Preparation involves establishing policies, training, and tools to handle incidents before they occur."
+    },
+    {
+      "id": 6,
+      "domain": "Security Operations",
+      "question": "What is a false positive in security monitoring?",
+      "options": {
+        "A": "An attack that goes undetected",
+        "B": "A security alert that is actually harmless",
+        "C": "A successful malware infection",
+        "D": "A network outage"
+      },
+      "answer": "B",
+      "explanation": "A false positive is an alert generated for normal activity mistaken as malicious."
+    },
+    {
+      "id": 7,
+      "domain": "Security Operations",
+      "question": "Which of the following is a common tool for automated vulnerability scanning?",
+      "options": {
+        "A": "Wireshark",
+        "B": "Nessus",
+        "C": "Metasploit",
+        "D": "Splunk"
+      },
+      "answer": "B",
+      "explanation": "Nessus is widely used for scanning systems to find known vulnerabilities."
+    },
+    {
+      "id": 8,
+      "domain": "Security Operations",
+      "question": "What does the term 'forensics' mean in security operations?",
+      "options": {
+        "A": "Real-time threat blocking",
+        "B": "Analyzing digital evidence to understand an incident",
+        "C": "Software patching",
+        "D": "Employee training"
+      },
+      "answer": "B",
+      "explanation": "Digital forensics investigates data and logs to determine how a security event occurred."
+    },
+    {
+      "id": 9,
+      "domain": "Security Operations",
+      "question": "Which security operation role is responsible for managing firewall rules and policies?",
+      "options": {
+        "A": "Security analyst",
+        "B": "Network administrator",
+        "C": "Incident responder",
+        "D": "Forensic investigator"
+      },
+      "answer": "B",
+      "explanation": "Network administrators typically configure and manage firewall settings."
+    },
+    {
+      "id": 10,
+      "domain": "Security Operations",
+      "question": "What is the purpose of patch management?",
+      "options": {
+        "A": "To update software to fix security vulnerabilities",
+        "B": "To monitor network traffic",
+        "C": "To create backups",
+        "D": "To encrypt data"
+      },
+      "answer": "A",
+      "explanation": "Patch management applies updates to software to resolve security flaws."
+    },
+    {
+      "id": 11,
+      "domain": "Security Operations",
+      "question": "Which type of backup allows for restoring a system to a specific point in time?",
+      "options": {
+        "A": "Full backup",
+        "B": "Incremental backup",
+        "C": "Differential backup",
+        "D": "Snapshot backup"
+      },
+      "answer": "D",
+      "explanation": "Snapshot backups capture the system state at a particular moment, enabling point-in-time recovery."
+    },
+    {
+      "id": 12,
+      "domain": "Security Operations",
+      "question": "What is the main goal of threat hunting?",
+      "options": {
+        "A": "Passively wait for alerts",
+        "B": "Proactively search for hidden threats in a network",
+        "C": "Encrypt network traffic",
+        "D": "Configure firewalls"
+      },
+      "answer": "B",
+      "explanation": "Threat hunting involves actively looking for threats that may evade automated detection."
+    },
+    {
+      "id": 13,
+      "domain": "Security Operations",
+      "question": "Which term refers to the continuous process of monitoring, detecting, and responding to security incidents?",
+      "options": {
+        "A": "Incident response",
+        "B": "Security operations center (SOC)",
+        "C": "Security testing",
+        "D": "Penetration testing"
+      },
+      "answer": "B",
+      "explanation": "A SOC manages ongoing security monitoring and incident handling."
+    },
+    {
+      "id": 14,
+      "domain": "Security Operations",
+      "question": "Which document outlines how to report and handle security incidents?",
+      "options": {
+        "A": "Incident response plan",
+        "B": "Business continuity plan",
+        "C": "Access control policy",
+        "D": "Security awareness training"
+      },
+      "answer": "A",
+      "explanation": "The incident response plan guides how to report, manage, and recover from incidents."
+    },
+    {
+      "id": 15,
+      "domain": "Security Operations",
+      "question": "What is a common indicator of compromise (IoC)?",
+      "options": {
+        "A": "Updated software",
+        "B": "Unusual network traffic or files",
+        "C": "User training",
+        "D": "Strong passwords"
+      },
+      "answer": "B",
+      "explanation": "IoCs are signs that a system may have been breached or infected."
+    },
+    {
+      "id": 16,
+      "domain": "Security Operations",
+      "question": "Which tool captures and analyzes network packets?",
+      "options": {
+        "A": "Wireshark",
+        "B": "Nmap",
+        "C": "Metasploit",
+        "D": "Snort"
+      },
+      "answer": "A",
+      "explanation": "Wireshark is widely used for packet capture and analysis."
+    },
+    {
+      "id": 17,
+      "domain": "Security Operations",
+      "question": "What is the main function of a honeypot?",
+      "options": {
+        "A": "To trap and study attackers",
+        "B": "To block malware",
+        "C": "To encrypt data",
+        "D": "To monitor employee productivity"
+      },
+      "answer": "A",
+      "explanation": "A honeypot is a decoy system used to attract attackers and analyze their methods."
+    },
+    {
+      "id": 18,
+      "domain": "Security Operations",
+      "question": "Which security operation activity involves verifying that users have appropriate access rights?",
+      "options": {
+        "A": "Access reviews",
+        "B": "Penetration testing",
+        "C": "Firewall configuration",
+        "D": "Threat hunting"
+      },
+      "answer": "A",
+      "explanation": "Access reviews ensure user permissions remain appropriate over time."
+    },
+    {
+      "id": 19,
+      "domain": "Security Operations",
+      "question": "What is the term for unauthorized access to a system by bypassing security mechanisms?",
+      "options": {
+        "A": "Phishing",
+        "B": "Exploitation",
+        "C": "Brute force",
+        "D": "Unauthorized escalation"
+      },
+      "answer": "B",
+      "explanation": "Exploitation refers to taking advantage of a vulnerability to gain unauthorized access."
+    },
+    {
+      "id": 20,
+      "domain": "Security Operations",
+      "question": "Which of the following is a best practice for incident handling?",
+      "options": {
+        "A": "Ignore minor incidents",
+        "B": "Document all steps and preserve evidence",
+        "C": "Immediately delete all logs",
+        "D": "Reset all passwords daily"
+      },
+      "answer": "B",
+      "explanation": "Proper documentation and evidence preservation are critical for effective incident response."
+    }
+  ]
+  

@@ -1,0 +1,263 @@
+[
+    {
+      "id": 1,
+      "domain": "Security Principles",
+      "question": "Which security principle ensures that data is not altered during storage or transmission?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Integrity",
+        "C": "Availability",
+        "D": "Accountability"
+      },
+      "answer": "B",
+      "explanation": "Integrity ensures that data remains accurate and unaltered, whether stored or in transit. Confidentiality prevents unauthorized access, and availability ensures systems are accessible."
+    },
+    {
+      "id": 2,
+      "domain": "Security Principles",
+      "question": "A security policy states that only authorized employees can access certain data. Which core security objective does this address?",
+      "options": {
+        "A": "Integrity",
+        "B": "Confidentiality",
+        "C": "Availability",
+        "D": "Authentication"
+      },
+      "answer": "B",
+      "explanation": "Confidentiality ensures only authorized individuals can access sensitive information."
+    },
+    {
+      "id": 3,
+      "domain": "Security Principles",
+      "question": "Which of the following best describes the principle of least privilege?",
+      "options": {
+        "A": "Allowing users access to all company data",
+        "B": "Granting users only the permissions necessary to perform their job",
+        "C": "Blocking all access until management approves",
+        "D": "Granting permissions based on seniority"
+      },
+      "answer": "B",
+      "explanation": "Least privilege means giving users only the minimum access required to perform their duties."
+    },
+    {
+      "id": 4,
+      "domain": "Security Principles",
+      "question": "In the CIA triad, which element ensures that systems and data are available when needed?",
+      "options": {
+        "A": "Integrity",
+        "B": "Availability",
+        "C": "Confidentiality",
+        "D": "Resilience"
+      },
+      "answer": "B",
+      "explanation": "Availability ensures resources and data are accessible to authorized users when needed."
+    },
+    {
+      "id": 5,
+      "domain": "Security Principles",
+      "question": "Which concept involves verifying the identity of a user before granting access?",
+      "options": {
+        "A": "Authorization",
+        "B": "Identification",
+        "C": "Authentication",
+        "D": "Accountability"
+      },
+      "answer": "C",
+      "explanation": "Authentication confirms the identity of a user, often through passwords, biometrics, or tokens."
+    },
+    {
+      "id": 6,
+      "domain": "Security Principles",
+      "question": "Which is an example of a physical security control?",
+      "options": {
+        "A": "Firewall",
+        "B": "Security guard",
+        "C": "Antivirus software",
+        "D": "Encryption"
+      },
+      "answer": "B",
+      "explanation": "Physical security controls, like security guards, protect facilities and physical assets."
+    },
+    {
+      "id": 7,
+      "domain": "Security Principles",
+      "question": "What is the main purpose of security awareness training?",
+      "options": {
+        "A": "Teach programming skills",
+        "B": "Improve user ability to detect and avoid security threats",
+        "C": "Increase network bandwidth",
+        "D": "Reduce IT staff workload"
+      },
+      "answer": "B",
+      "explanation": "Security awareness training educates users on identifying and preventing security risks."
+    },
+    {
+      "id": 8,
+      "domain": "Security Principles",
+      "question": "Which principle states that no single person should have complete control over a critical process?",
+      "options": {
+        "A": "Separation of duties",
+        "B": "Least privilege",
+        "C": "Need to know",
+        "D": "Mandatory vacation"
+      },
+      "answer": "A",
+      "explanation": "Separation of duties reduces the risk of fraud or error by dividing responsibilities."
+    },
+    {
+      "id": 9,
+      "domain": "Security Principles",
+      "question": "What type of control is an access badge?",
+      "options": {
+        "A": "Administrative",
+        "B": "Technical",
+        "C": "Physical",
+        "D": "Detective"
+      },
+      "answer": "C",
+      "explanation": "An access badge is a physical control used to regulate entry to secure areas."
+    },
+    {
+      "id": 10,
+      "domain": "Security Principles",
+      "question": "Which term describes ensuring that an action or transaction can be traced to the person who performed it?",
+      "options": {
+        "A": "Accountability",
+        "B": "Authentication",
+        "C": "Integrity",
+        "D": "Non-repudiation"
+      },
+      "answer": "A",
+      "explanation": "Accountability ensures actions can be attributed to an individual."
+    },
+    {
+      "id": 11,
+      "domain": "Security Principles",
+      "question": "What is a major benefit of using layered security (defense in depth)?",
+      "options": {
+        "A": "Eliminates the need for monitoring",
+        "B": "Reduces reliance on a single security measure",
+        "C": "Speeds up system performance",
+        "D": "Removes the need for training"
+      },
+      "answer": "B",
+      "explanation": "Defense in depth ensures multiple overlapping controls protect against various threats."
+    },
+    {
+      "id": 12,
+      "domain": "Security Principles",
+      "question": "In information security, what does 'availability' protect against?",
+      "options": {
+        "A": "Unauthorized data modification",
+        "B": "Data being inaccessible to authorized users",
+        "C": "Data leakage",
+        "D": "System compromise"
+      },
+      "answer": "B",
+      "explanation": "Availability ensures authorized users have timely access to resources."
+    },
+    {
+      "id": 13,
+      "domain": "Security Principles",
+      "question": "Which security role is responsible for determining data classification levels?",
+      "options": {
+        "A": "Data owner",
+        "B": "Data custodian",
+        "C": "Security officer",
+        "D": "Auditor"
+      },
+      "answer": "A",
+      "explanation": "Data owners decide classification and usage rules for the information they manage."
+    },
+    {
+      "id": 14,
+      "domain": "Security Principles",
+      "question": "What is the first step in a risk management process?",
+      "options": {
+        "A": "Risk assessment",
+        "B": "Control implementation",
+        "C": "Risk acceptance",
+        "D": "Incident response"
+      },
+      "answer": "A",
+      "explanation": "Risk assessment identifies and evaluates potential threats and vulnerabilities."
+    },
+    {
+      "id": 15,
+      "domain": "Security Principles",
+      "question": "A user reports receiving an email asking for login credentials. This is an example of:",
+      "options": {
+        "A": "Phishing",
+        "B": "Spear phishing",
+        "C": "Whaling",
+        "D": "Vishing"
+      },
+      "answer": "A",
+      "explanation": "Phishing is a general email-based attack designed to trick recipients into revealing sensitive information."
+    },
+    {
+      "id": 16,
+      "domain": "Security Principles",
+      "question": "Which type of security control detects and reports unauthorized activity?",
+      "options": {
+        "A": "Preventive",
+        "B": "Detective",
+        "C": "Corrective",
+        "D": "Deterrent"
+      },
+      "answer": "B",
+      "explanation": "Detective controls identify and alert administrators to potential security incidents."
+    },
+    {
+      "id": 17,
+      "domain": "Security Principles",
+      "question": "Which concept ensures that individuals only access data they have a legitimate need to know?",
+      "options": {
+        "A": "Need to know",
+        "B": "Least privilege",
+        "C": "Mandatory access control",
+        "D": "Accountability"
+      },
+      "answer": "A",
+      "explanation": "Need-to-know limits data access based on a legitimate business requirement."
+    },
+    {
+      "id": 18,
+      "domain": "Security Principles",
+      "question": "Which of the following is NOT part of the CIA triad?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Integrity",
+        "C": "Availability",
+        "D": "Accountability"
+      },
+      "answer": "D",
+      "explanation": "Accountability is important but is not one of the three pillars of the CIA triad."
+    },
+    {
+      "id": 19,
+      "domain": "Security Principles",
+      "question": "Which is an example of a technical control?",
+      "options": {
+        "A": "Firewall",
+        "B": "Security policy",
+        "C": "Security guard",
+        "D": "Locked door"
+      },
+      "answer": "A",
+      "explanation": "Firewalls are technical controls that filter network traffic."
+    },
+    {
+      "id": 20,
+      "domain": "Security Principles",
+      "question": "Which concept describes the probability and impact of a threat exploiting a vulnerability?",
+      "options": {
+        "A": "Threat modeling",
+        "B": "Risk",
+        "C": "Incident",
+        "D": "Mitigation"
+      },
+      "answer": "B",
+      "explanation": "Risk is defined as the likelihood and impact of a threat exploiting a vulnerability."
+    }
+  ]
+  
