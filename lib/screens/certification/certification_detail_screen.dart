@@ -25,8 +25,8 @@ class _CertificationDetailScreenState extends State<CertificationDetailScreen> {
   late final QuizService _quizService;
   Certification? _certification;
   bool _isLoading = true;
-  bool _isStartingQuiz = false;
-  String? _startingSectionId;
+  bool _isStartingAnyQuiz = false;
+  String? _startingQuizType; // 'random' or section ID
 
   @override
   void initState() {
@@ -56,7 +56,7 @@ class _CertificationDetailScreenState extends State<CertificationDetailScreen> {
   }
 
   Future<void> _startRandomQuiz() async {
-    if (_certification == null || _isStartingQuiz) return;
+    if (_certification == null || _isStartingAnyQuiz) return;
 
     // Check if certification has any questions
     if (_certification!.totalQuestions == 0) {
@@ -73,7 +73,8 @@ class _CertificationDetailScreenState extends State<CertificationDetailScreen> {
     }
 
     setState(() {
-      _isStartingQuiz = true;
+      _isStartingAnyQuiz = true;
+      _startingQuizType = 'random';
     });
 
     try {
@@ -90,16 +91,15 @@ class _CertificationDetailScreenState extends State<CertificationDetailScreen> {
     } finally {
       if (mounted) {
         setState(() {
-          _isStartingQuiz = false;
+          _isStartingAnyQuiz = false;
+          _startingQuizType = null;
         });
       }
     }
   }
 
   Future<void> _startSectionQuiz(String sectionId) async {
-    if (_certification == null ||
-        _isStartingQuiz ||
-        _startingSectionId == sectionId) return;
+    if (_certification == null || _isStartingAnyQuiz) return;
 
     // Find the section and check if it has questions
     final section = _certification!.sections.firstWhere(
@@ -121,7 +121,8 @@ class _CertificationDetailScreenState extends State<CertificationDetailScreen> {
     }
 
     setState(() {
-      _startingSectionId = sectionId;
+      _isStartingAnyQuiz = true;
+      _startingQuizType = sectionId;
     });
 
     try {
@@ -139,7 +140,8 @@ class _CertificationDetailScreenState extends State<CertificationDetailScreen> {
     } finally {
       if (mounted) {
         setState(() {
-          _startingSectionId = null;
+          _isStartingAnyQuiz = false;
+          _startingQuizType = null;
         });
       }
     }
@@ -281,19 +283,21 @@ class _CertificationDetailScreenState extends State<CertificationDetailScreen> {
             SizedBox(
               width: double.infinity,
               child: CustomButton(
-                text: _isStartingQuiz
+                text: (_isStartingAnyQuiz && _startingQuizType == 'random')
                     ? 'Starting Quiz...'
                     : _certification!.totalQuestions > 0
                         ? 'Start Random Quiz'
                         : 'No Questions Available',
                 onPressed:
-                    (_certification!.totalQuestions > 0 && !_isStartingQuiz)
+                    (_certification!.totalQuestions > 0 && !_isStartingAnyQuiz)
                         ? _startRandomQuiz
                         : null,
                 backgroundColor: _certification!.totalQuestions > 0
                     ? AppTheme.accentGreen
                     : AppTheme.textSecondary,
-                icon: _isStartingQuiz ? MdiIcons.loading : MdiIcons.shuffle,
+                icon: (_isStartingAnyQuiz && _startingQuizType == 'random')
+                    ? MdiIcons.loading
+                    : MdiIcons.shuffle,
               ),
             ),
           ],
@@ -345,7 +349,7 @@ class _CertificationDetailScreenState extends State<CertificationDetailScreen> {
     return Card(
       color: cardColor,
       child: InkWell(
-        onTap: (hasQuestions && _startingSectionId != section.id)
+        onTap: (hasQuestions && !_isStartingAnyQuiz)
             ? () => _startSectionQuiz(section.id)
             : null,
         borderRadius: BorderRadius.circular(12),
@@ -360,7 +364,7 @@ class _CertificationDetailScreenState extends State<CertificationDetailScreen> {
                   color: iconColor.withOpacity(0.1),
                   borderRadius: BorderRadius.circular(8),
                 ),
-                child: _startingSectionId == section.id
+                child: (_isStartingAnyQuiz && _startingQuizType == section.id)
                     ? SizedBox(
                         width: 24,
                         height: 24,
@@ -391,13 +395,14 @@ class _CertificationDetailScreenState extends State<CertificationDetailScreen> {
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      _startingSectionId == section.id
+                      (_isStartingAnyQuiz && _startingQuizType == section.id)
                           ? 'Starting quiz...'
                           : hasQuestions
                               ? '${section.questionCount} questions'
                               : 'No questions available',
                       style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                            color: _startingSectionId == section.id
+                            color: (_isStartingAnyQuiz &&
+                                    _startingQuizType == section.id)
                                 ? AppTheme.accentGreen
                                 : hasQuestions
                                     ? AppTheme.textSecondary
