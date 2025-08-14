@@ -481,19 +481,19 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 ),
               ],
             ),
-            const SizedBox(height: 16),
-            _buildSettingsItem(
-              icon: MdiIcons.bell,
-              title: 'Notifications',
-              subtitle: 'Manage your notification preferences',
-              onTap: () {
-                // TODO: Navigate to notifications settings
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(
-                      content: Text('Notifications settings coming soon!')),
-                );
-              },
-            ),
+            // const SizedBox(height: 16),
+            // _buildSettingsItem(
+            //   icon: MdiIcons.bell,
+            //   title: 'Notifications',
+            //   subtitle: 'Manage your notification preferences',
+            //   onTap: () {
+            //     // TODO: Navigate to notifications settings
+            //     ScaffoldMessenger.of(context).showSnackBar(
+            //       const SnackBar(
+            //           content: Text('Notifications settings coming soon!')),
+            //     );
+            //   },
+            // ),
             const Divider(color: AppTheme.surfaceCharcoal),
             _buildSettingsItem(
               icon: MdiIcons.themeLightDark,
@@ -510,7 +510,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             _buildSettingsItem(
               icon: MdiIcons.help,
               title: 'Help & Support',
-              subtitle: 'Get help and contact support',
+              subtitle: 'acemycert@gmail.com',
               onTap: () {
                 // TODO: Help & support
                 ScaffoldMessenger.of(context).showSnackBar(
