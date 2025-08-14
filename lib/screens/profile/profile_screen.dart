@@ -1,4 +1,3 @@
-
 import 'package:cybersecurity_quiz_platform/services/supabase_data_loader_service.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -12,6 +11,7 @@ import '../../providers/quiz_data_provider.dart';
 import '../../services/hybrid_quiz_history_service.dart';
 import '../../services/supabase_data_loader_service.dart';
 import '../../models/quiz_history.dart';
+import '../../scripts/bulk_question_uploader.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -102,7 +102,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   children: [
                     _buildProfileHeader(user),
                     const SizedBox(height: 24),
-                    _buildStatsSection(user, quizDataProvider.currentStats as QuizStatistics?),
+                    _buildStatsSection(
+                        user, quizDataProvider.currentStats as QuizStatistics?),
                     const SizedBox(height: 24),
                     _buildAchievementsSection(
                         user, quizDataProvider.currentStats as QuizStatistics?),
@@ -111,14 +112,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     const SizedBox(height: 24),
                     _buildSettingsSection(),
                     const SizedBox(height: 24),
-                    // Debug: Test Supabase connection
+                    // Debug: Admin Tools
                     if (true) // Set to false in production
                       SizedBox(
                         width: double.infinity,
                         child: OutlinedButton.icon(
-                          onPressed: _testSupabaseConnection,
-                          icon: const Icon(Icons.bug_report),
-                          label: const Text('Test Supabase Connection'),
+                          onPressed: _showAdminTools,
+                          icon: const Icon(Icons.admin_panel_settings),
+                          label: const Text('Admin Tools'),
                           style: OutlinedButton.styleFrom(
                             foregroundColor: AppTheme.secondaryTeal,
                             side:
@@ -728,7 +729,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               const SizedBox(height: 12),
               ElevatedButton.icon(
                 onPressed: () => quizDataProvider.forceSync(),
-                icon:  Icon(MdiIcons.cloudUpload, size: 16),
+                icon: Icon(MdiIcons.cloudUpload, size: 16),
                 label: const Text('Force Sync'),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: AppTheme.primaryBlue,
@@ -782,6 +783,166 @@ class _ProfileScreenState extends State<ProfileScreen> {
     }
 
     return streak;
+  }
+
+  /// Show admin tools dialog
+  void _showAdminTools() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: AppTheme.surfaceCharcoal,
+        title: Text(
+          'Admin Tools',
+          style: TextStyle(color: AppTheme.textPrimary),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ListTile(
+              leading: Icon(Icons.cloud_upload, color: AppTheme.primaryBlue),
+              title: Text('Bulk Upload Questions',
+                  style: TextStyle(color: AppTheme.textPrimary)),
+              subtitle: Text('Upload new questions from JSON files',
+                  style: TextStyle(color: AppTheme.textSecondary)),
+              onTap: () {
+                Navigator.of(context).pop();
+                _runBulkUpload();
+              },
+            ),
+            Divider(color: AppTheme.textSecondary),
+            ListTile(
+              leading: Icon(Icons.refresh, color: AppTheme.secondaryTeal),
+              title: Text('Refresh Question Counts',
+                  style: TextStyle(color: AppTheme.textPrimary)),
+              subtitle: Text('Update question counts in database',
+                  style: TextStyle(color: AppTheme.textSecondary)),
+              onTap: () {
+                Navigator.of(context).pop();
+                _refreshQuestionCounts();
+              },
+            ),
+            Divider(color: AppTheme.textSecondary),
+            ListTile(
+              // leading: Icon(Icons.bug_report, color: AppTheme.warningYellow),
+              title: Text('Test Supabase Connection',
+                  style: TextStyle(color: AppTheme.textPrimary)),
+              subtitle: Text('Check database connection and stats',
+                  style: TextStyle(color: AppTheme.textSecondary)),
+              onTap: () {
+                Navigator.of(context).pop();
+                _testSupabaseConnection();
+              },
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: Text('Close', style: TextStyle(color: AppTheme.primaryBlue)),
+          ),
+        ],
+      ),
+    );
+  }
+
+  /// Run bulk question upload
+  Future<void> _runBulkUpload() async {
+    // Show loading dialog
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => AlertDialog(
+        backgroundColor: AppTheme.surfaceCharcoal,
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            CircularProgressIndicator(color: AppTheme.primaryBlue),
+            SizedBox(height: 16),
+            Text('Uploading questions...',
+                style: TextStyle(color: AppTheme.textPrimary)),
+          ],
+        ),
+      ),
+    );
+
+    try {
+      final uploader = BulkQuestionUploader();
+      await uploader.uploadNewQuestions();
+
+      if (mounted) {
+        Navigator.of(context).pop(); // Close loading dialog
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Questions uploaded successfully!'),
+            backgroundColor: AppTheme.successGreen,
+          ),
+        );
+
+        // Refresh the quiz data
+        final quizDataProvider = context.read<QuizDataProvider>();
+        await quizDataProvider.refresh();
+      }
+    } catch (e) {
+      if (mounted) {
+        Navigator.of(context).pop(); // Close loading dialog
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Upload failed: $e'),
+            backgroundColor: AppTheme.errorRed,
+          ),
+        );
+      }
+    }
+  }
+
+  /// Refresh question counts in database
+  Future<void> _refreshQuestionCounts() async {
+    // Show loading dialog
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => AlertDialog(
+        backgroundColor: AppTheme.surfaceCharcoal,
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            CircularProgressIndicator(color: AppTheme.primaryBlue),
+            SizedBox(height: 16),
+            Text('Refreshing counts...',
+                style: TextStyle(color: AppTheme.textPrimary)),
+          ],
+        ),
+      ),
+    );
+
+    try {
+      final dataLoader = SupabaseDataLoaderService();
+      await dataLoader.refreshQuestionCounts();
+
+      if (mounted) {
+        Navigator.of(context).pop(); // Close loading dialog
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Question counts refreshed!'),
+            backgroundColor: AppTheme.successGreen,
+          ),
+        );
+
+        // Refresh the quiz data
+        final quizDataProvider = context.read<QuizDataProvider>();
+        await quizDataProvider.refresh();
+      }
+    } catch (e) {
+      if (mounted) {
+        Navigator.of(context).pop(); // Close loading dialog
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Refresh failed: $e'),
+            backgroundColor: AppTheme.errorRed,
+          ),
+        );
+      }
+    }
   }
 
   /// Test Supabase connection (debug method)

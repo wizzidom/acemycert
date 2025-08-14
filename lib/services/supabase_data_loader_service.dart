@@ -197,4 +197,45 @@ class SupabaseDataLoaderService {
       throw Exception('Failed to get database stats: $e');
     }
   }
+
+  /// Refresh question counts in sections and certifications tables
+  Future<void> refreshQuestionCounts() async {
+    try {
+      // Get all sections for ISC² CC
+      final sections = await _supabase
+          .from('sections')
+          .select('id')
+          .eq('certification_id', 'isc2-cc');
+      
+      int totalQuestions = 0;
+      
+      for (final section in sections) {
+        final sectionId = section['id'] as String;
+        
+        // Count actual questions in this section
+        final questions = await _supabase
+            .from('questions')
+            .select('id')
+            .eq('section_id', sectionId);
+        
+        final questionCount = questions.length;
+        totalQuestions += questionCount;
+        
+        // Update section question count
+        await _supabase
+            .from('sections')
+            .update({'question_count': questionCount})
+            .eq('id', sectionId);
+      }
+      
+      // Update total certification question count
+      await _supabase
+          .from('certifications')
+          .update({'total_questions': totalQuestions})
+          .eq('id', 'isc2-cc');
+      
+    } catch (e) {
+      throw Exception('Failed to refresh question counts: $e');
+    }
+  }
 }

@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "domain": "Security Principles",
+    "question": "What is the primary goal of information security?",
+    "options": {
+      "A": "To prevent all cyber attacks",
+      "B": "To ensure confidentiality, integrity, and availability",
+      "C": "To implement the strongest encryption",
+      "D": "To eliminate all security vulnerabilities"
+    },
+    "answer": "B",
+    "explanation": "The primary goal of information security is to protect the confidentiality, integrity, and availability (CIA triad) of information and information systems."
+  },
+  {
+    "id": 2,
+    "domain": "Network Security",
+    "question": "Which of the following is a characteristic of a secure network design?",
+    "options": {
+      "A": "Single point of failure",
+      "B": "Defense in depth",
+      "C": "Open access to all resources",
+      "D": "Centralized authentication only"
+    },
+    "answer": "B",
+    "explanation": "Defense in depth is a security strategy that employs multiple layers of security controls to protect against various types of attacks and failures."
+  },
+  {
+    "id": 3,
+    "domain": "Access Controls Concepts",
+    "question": "What type of access control is based on the sensitivity of information and the clearance level of users?",
+    "options": {
+      "A": "Discretionary Access Control (DAC)",
+      "B": "Mandatory Access Control (MAC)",
+      "C": "Role-Based Access Control (RBAC)",
+      "D": "Attribute-Based Access Control (ABAC)"
+    },
+    "answer": "B",
+    "explanation": "Mandatory Access Control (MAC) is based on the sensitivity classification of information and the clearance level of users, commonly used in government and military environments."
+  }
+]

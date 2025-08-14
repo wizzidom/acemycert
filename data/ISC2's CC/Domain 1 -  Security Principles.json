@@ -1,263 +1,2342 @@
 [
-    {
-      "id": 1,
-      "domain": "Security Principles",
-      "question": "Which security principle ensures that data is not altered during storage or transmission?",
-      "options": {
-        "A": "Confidentiality",
-        "B": "Integrity",
-        "C": "Availability",
-        "D": "Accountability"
-      },
-      "answer": "B",
-      "explanation": "Integrity ensures that data remains accurate and unaltered, whether stored or in transit. Confidentiality prevents unauthorized access, and availability ensures systems are accessible."
+  {
+    "id": 1,
+    "domain": "Security Principles",
+    "question": "Which security principle ensures that data is not altered during storage or transmission?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Accountability"
     },
-    {
-      "id": 2,
-      "domain": "Security Principles",
-      "question": "A security policy states that only authorized employees can access certain data. Which core security objective does this address?",
-      "options": {
-        "A": "Integrity",
-        "B": "Confidentiality",
-        "C": "Availability",
-        "D": "Authentication"
-      },
-      "answer": "B",
-      "explanation": "Confidentiality ensures only authorized individuals can access sensitive information."
+    "answer": "B",
+    "explanation": "Integrity ensures that data remains accurate and unaltered, whether stored or in transit. Confidentiality prevents unauthorized access, and availability ensures systems are accessible."
+  },
+  {
+    "id": 2,
+    "domain": "Security Principles",
+    "question": "A security policy states that only authorized employees can access certain data. Which core security objective does this address?",
+    "options": {
+      "A": "Integrity",
+      "B": "Confidentiality",
+      "C": "Availability",
+      "D": "Authentication"
     },
-    {
-      "id": 3,
-      "domain": "Security Principles",
-      "question": "Which of the following best describes the principle of least privilege?",
-      "options": {
-        "A": "Allowing users access to all company data",
-        "B": "Granting users only the permissions necessary to perform their job",
-        "C": "Blocking all access until management approves",
-        "D": "Granting permissions based on seniority"
-      },
-      "answer": "B",
-      "explanation": "Least privilege means giving users only the minimum access required to perform their duties."
+    "answer": "B",
+    "explanation": "Confidentiality ensures only authorized individuals can access sensitive information."
+  },
+  {
+    "id": 3,
+    "domain": "Security Principles",
+    "question": "Which of the following best describes the principle of least privilege?",
+    "options": {
+      "A": "Allowing users access to all company data",
+      "B": "Granting users only the permissions necessary to perform their job",
+      "C": "Blocking all access until management approves",
+      "D": "Granting permissions based on seniority"
     },
-    {
-      "id": 4,
-      "domain": "Security Principles",
-      "question": "In the CIA triad, which element ensures that systems and data are available when needed?",
-      "options": {
-        "A": "Integrity",
-        "B": "Availability",
-        "C": "Confidentiality",
-        "D": "Resilience"
-      },
-      "answer": "B",
-      "explanation": "Availability ensures resources and data are accessible to authorized users when needed."
+    "answer": "B",
+    "explanation": "Least privilege means giving users only the minimum access required to perform their duties."
+  },
+  {
+    "id": 4,
+    "domain": "Security Principles",
+    "question": "In the CIA triad, which element ensures that systems and data are available when needed?",
+    "options": {
+      "A": "Integrity",
+      "B": "Availability",
+      "C": "Confidentiality",
+      "D": "Resilience"
     },
-    {
-      "id": 5,
-      "domain": "Security Principles",
-      "question": "Which concept involves verifying the identity of a user before granting access?",
-      "options": {
-        "A": "Authorization",
-        "B": "Identification",
-        "C": "Authentication",
-        "D": "Accountability"
-      },
-      "answer": "C",
-      "explanation": "Authentication confirms the identity of a user, often through passwords, biometrics, or tokens."
+    "answer": "B",
+    "explanation": "Availability ensures resources and data are accessible to authorized users when needed."
+  },
+  {
+    "id": 5,
+    "domain": "Security Principles",
+    "question": "Which concept involves verifying the identity of a user before granting access?",
+    "options": {
+      "A": "Authorization",
+      "B": "Identification",
+      "C": "Authentication",
+      "D": "Accountability"
     },
-    {
-      "id": 6,
-      "domain": "Security Principles",
-      "question": "Which is an example of a physical security control?",
-      "options": {
-        "A": "Firewall",
-        "B": "Security guard",
-        "C": "Antivirus software",
-        "D": "Encryption"
-      },
-      "answer": "B",
-      "explanation": "Physical security controls, like security guards, protect facilities and physical assets."
+    "answer": "C",
+    "explanation": "Authentication confirms the identity of a user, often through passwords, biometrics, or tokens."
+  },
+  {
+    "id": 6,
+    "domain": "Security Principles",
+    "question": "Which is an example of a physical security control?",
+    "options": {
+      "A": "Firewall",
+      "B": "Security guard",
+      "C": "Antivirus software",
+      "D": "Encryption"
     },
-    {
-      "id": 7,
-      "domain": "Security Principles",
-      "question": "What is the main purpose of security awareness training?",
-      "options": {
-        "A": "Teach programming skills",
-        "B": "Improve user ability to detect and avoid security threats",
-        "C": "Increase network bandwidth",
-        "D": "Reduce IT staff workload"
-      },
-      "answer": "B",
-      "explanation": "Security awareness training educates users on identifying and preventing security risks."
+    "answer": "B",
+    "explanation": "Physical security controls, like security guards, protect facilities and physical assets."
+  },
+  {
+    "id": 7,
+    "domain": "Security Principles",
+    "question": "What is the main purpose of security awareness training?",
+    "options": {
+      "A": "Teach programming skills",
+      "B": "Improve user ability to detect and avoid security threats",
+      "C": "Increase network bandwidth",
+      "D": "Reduce IT staff workload"
     },
-    {
-      "id": 8,
-      "domain": "Security Principles",
-      "question": "Which principle states that no single person should have complete control over a critical process?",
-      "options": {
-        "A": "Separation of duties",
-        "B": "Least privilege",
-        "C": "Need to know",
-        "D": "Mandatory vacation"
-      },
-      "answer": "A",
-      "explanation": "Separation of duties reduces the risk of fraud or error by dividing responsibilities."
+    "answer": "B",
+    "explanation": "Security awareness training educates users on identifying and preventing security risks."
+  },
+  {
+    "id": 8,
+    "domain": "Security Principles",
+    "question": "Which principle states that no single person should have complete control over a critical process?",
+    "options": {
+      "A": "Separation of duties",
+      "B": "Least privilege",
+      "C": "Need to know",
+      "D": "Mandatory vacation"
     },
-    {
-      "id": 9,
-      "domain": "Security Principles",
-      "question": "What type of control is an access badge?",
-      "options": {
-        "A": "Administrative",
-        "B": "Technical",
-        "C": "Physical",
-        "D": "Detective"
-      },
-      "answer": "C",
-      "explanation": "An access badge is a physical control used to regulate entry to secure areas."
+    "answer": "A",
+    "explanation": "Separation of duties reduces the risk of fraud or error by dividing responsibilities."
+  },
+  {
+    "id": 9,
+    "domain": "Security Principles",
+    "question": "What type of control is an access badge?",
+    "options": {
+      "A": "Administrative",
+      "B": "Technical",
+      "C": "Physical",
+      "D": "Detective"
     },
-    {
-      "id": 10,
-      "domain": "Security Principles",
-      "question": "Which term describes ensuring that an action or transaction can be traced to the person who performed it?",
-      "options": {
-        "A": "Accountability",
-        "B": "Authentication",
-        "C": "Integrity",
-        "D": "Non-repudiation"
-      },
-      "answer": "A",
-      "explanation": "Accountability ensures actions can be attributed to an individual."
+    "answer": "C",
+    "explanation": "An access badge is a physical control used to regulate entry to secure areas."
+  },
+  {
+    "id": 10,
+    "domain": "Security Principles",
+    "question": "Which term describes ensuring that an action or transaction can be traced to the person who performed it?",
+    "options": {
+      "A": "Accountability",
+      "B": "Authentication",
+      "C": "Integrity",
+      "D": "Non-repudiation"
     },
-    {
-      "id": 11,
-      "domain": "Security Principles",
-      "question": "What is a major benefit of using layered security (defense in depth)?",
-      "options": {
-        "A": "Eliminates the need for monitoring",
-        "B": "Reduces reliance on a single security measure",
-        "C": "Speeds up system performance",
-        "D": "Removes the need for training"
-      },
-      "answer": "B",
-      "explanation": "Defense in depth ensures multiple overlapping controls protect against various threats."
+    "answer": "A",
+    "explanation": "Accountability ensures actions can be attributed to an individual."
+  },
+  {
+    "id": 11,
+    "domain": "Security Principles",
+    "question": "What is a major benefit of using layered security (defense in depth)?",
+    "options": {
+      "A": "Eliminates the need for monitoring",
+      "B": "Reduces reliance on a single security measure",
+      "C": "Speeds up system performance",
+      "D": "Removes the need for training"
     },
-    {
-      "id": 12,
-      "domain": "Security Principles",
-      "question": "In information security, what does 'availability' protect against?",
-      "options": {
-        "A": "Unauthorized data modification",
-        "B": "Data being inaccessible to authorized users",
-        "C": "Data leakage",
-        "D": "System compromise"
-      },
-      "answer": "B",
-      "explanation": "Availability ensures authorized users have timely access to resources."
+    "answer": "B",
+    "explanation": "Defense in depth ensures multiple overlapping controls protect against various threats."
+  },
+  {
+    "id": 12,
+    "domain": "Security Principles",
+    "question": "In information security, what does 'availability' protect against?",
+    "options": {
+      "A": "Unauthorized data modification",
+      "B": "Data being inaccessible to authorized users",
+      "C": "Data leakage",
+      "D": "System compromise"
     },
-    {
-      "id": 13,
-      "domain": "Security Principles",
-      "question": "Which security role is responsible for determining data classification levels?",
-      "options": {
-        "A": "Data owner",
-        "B": "Data custodian",
-        "C": "Security officer",
-        "D": "Auditor"
-      },
-      "answer": "A",
-      "explanation": "Data owners decide classification and usage rules for the information they manage."
+    "answer": "B",
+    "explanation": "Availability ensures authorized users have timely access to resources."
+  },
+  {
+    "id": 13,
+    "domain": "Security Principles",
+    "question": "Which security role is responsible for determining data classification levels?",
+    "options": {
+      "A": "Data owner",
+      "B": "Data custodian",
+      "C": "Security officer",
+      "D": "Auditor"
     },
-    {
-      "id": 14,
-      "domain": "Security Principles",
-      "question": "What is the first step in a risk management process?",
-      "options": {
-        "A": "Risk assessment",
-        "B": "Control implementation",
-        "C": "Risk acceptance",
-        "D": "Incident response"
-      },
-      "answer": "A",
-      "explanation": "Risk assessment identifies and evaluates potential threats and vulnerabilities."
+    "answer": "A",
+    "explanation": "Data owners decide classification and usage rules for the information they manage."
+  },
+  {
+    "id": 14,
+    "domain": "Security Principles",
+    "question": "What is the first step in a risk management process?",
+    "options": {
+      "A": "Risk assessment",
+      "B": "Control implementation",
+      "C": "Risk acceptance",
+      "D": "Incident response"
     },
-    {
-      "id": 15,
-      "domain": "Security Principles",
-      "question": "A user reports receiving an email asking for login credentials. This is an example of:",
-      "options": {
-        "A": "Phishing",
-        "B": "Spear phishing",
-        "C": "Whaling",
-        "D": "Vishing"
-      },
-      "answer": "A",
-      "explanation": "Phishing is a general email-based attack designed to trick recipients into revealing sensitive information."
+    "answer": "A",
+    "explanation": "Risk assessment identifies and evaluates potential threats and vulnerabilities."
+  },
+  {
+    "id": 15,
+    "domain": "Security Principles",
+    "question": "A user reports receiving an email asking for login credentials. This is an example of:",
+    "options": {
+      "A": "Phishing",
+      "B": "Spear phishing",
+      "C": "Whaling",
+      "D": "Vishing"
     },
-    {
-      "id": 16,
-      "domain": "Security Principles",
-      "question": "Which type of security control detects and reports unauthorized activity?",
-      "options": {
-        "A": "Preventive",
-        "B": "Detective",
-        "C": "Corrective",
-        "D": "Deterrent"
-      },
-      "answer": "B",
-      "explanation": "Detective controls identify and alert administrators to potential security incidents."
+    "answer": "A",
+    "explanation": "Phishing is a general email-based attack designed to trick recipients into revealing sensitive information."
+  },
+  {
+    "id": 16,
+    "domain": "Security Principles",
+    "question": "Which type of security control detects and reports unauthorized activity?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Deterrent"
     },
-    {
-      "id": 17,
-      "domain": "Security Principles",
-      "question": "Which concept ensures that individuals only access data they have a legitimate need to know?",
-      "options": {
-        "A": "Need to know",
-        "B": "Least privilege",
-        "C": "Mandatory access control",
-        "D": "Accountability"
-      },
-      "answer": "A",
-      "explanation": "Need-to-know limits data access based on a legitimate business requirement."
+    "answer": "B",
+    "explanation": "Detective controls identify and alert administrators to potential security incidents."
+  },
+  {
+    "id": 17,
+    "domain": "Security Principles",
+    "question": "Which concept ensures that individuals only access data they have a legitimate need to know?",
+    "options": {
+      "A": "Need to know",
+      "B": "Least privilege",
+      "C": "Mandatory access control",
+      "D": "Accountability"
     },
-    {
-      "id": 18,
-      "domain": "Security Principles",
-      "question": "Which of the following is NOT part of the CIA triad?",
-      "options": {
-        "A": "Confidentiality",
-        "B": "Integrity",
-        "C": "Availability",
-        "D": "Accountability"
-      },
-      "answer": "D",
-      "explanation": "Accountability is important but is not one of the three pillars of the CIA triad."
+    "answer": "A",
+    "explanation": "Need-to-know limits data access based on a legitimate business requirement."
+  },
+  {
+    "id": 18,
+    "domain": "Security Principles",
+    "question": "Which of the following is NOT part of the CIA triad?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Accountability"
     },
-    {
-      "id": 19,
-      "domain": "Security Principles",
-      "question": "Which is an example of a technical control?",
-      "options": {
-        "A": "Firewall",
-        "B": "Security policy",
-        "C": "Security guard",
-        "D": "Locked door"
-      },
-      "answer": "A",
-      "explanation": "Firewalls are technical controls that filter network traffic."
+    "answer": "D",
+    "explanation": "Accountability is important but is not one of the three pillars of the CIA triad."
+  },
+  {
+    "id": 19,
+    "domain": "Security Principles",
+    "question": "Which is an example of a technical control?",
+    "options": {
+      "A": "Firewall",
+      "B": "Security policy",
+      "C": "Security guard",
+      "D": "Locked door"
     },
-    {
-      "id": 20,
-      "domain": "Security Principles",
-      "question": "Which concept describes the probability and impact of a threat exploiting a vulnerability?",
-      "options": {
-        "A": "Threat modeling",
-        "B": "Risk",
-        "C": "Incident",
-        "D": "Mitigation"
-      },
-      "answer": "B",
-      "explanation": "Risk is defined as the likelihood and impact of a threat exploiting a vulnerability."
-    }
-  ]
-  
+    "answer": "A",
+    "explanation": "Firewalls are technical controls that filter network traffic."
+  },
+  {
+    "id": 20,
+    "domain": "Security Principles",
+    "question": "Which concept describes the probability and impact of a threat exploiting a vulnerability?",
+    "options": {
+      "A": "Threat modeling",
+      "B": "Risk",
+      "C": "Incident",
+      "D": "Mitigation"
+    },
+    "answer": "B",
+    "explanation": "Risk is defined as the likelihood and impact of a threat exploiting a vulnerability."
+  },
+  {
+    "id": 21,
+    "domain": "Security Principles",
+    "question": "What is the main purpose of the CIA triad in cybersecurity?",
+    "options": {
+      "A": "Control, Inspect, Audit",
+      "B": "Confidentiality, Integrity, Availability",
+      "C": "Connect, Identify, Authenticate",
+      "D": "Capture, Investigate, Alert"
+    },
+    "answer": "B",
+    "explanation": "The CIA triad ensures data is protected through confidentiality, integrity, and availability."
+  },
+  {
+    "id": 22,
+    "domain": "Security Principles",
+    "question": "Which of the following is an example of a physical security control?",
+    "options": {
+      "A": "Firewall",
+      "B": "Security camera",
+      "C": "Encryption",
+      "D": "Access control list"
+    },
+    "answer": "B",
+    "explanation": "Physical security controls protect assets using tangible measures like cameras, locks, and guards."
+  },
+  {
+    "id": 23,
+    "domain": "Security Principles",
+    "question": "Which principle ensures users are only given access necessary to perform their job?",
+    "options": {
+      "A": "Separation of duties",
+      "B": "Least privilege",
+      "C": "Defense in depth",
+      "D": "Need to know"
+    },
+    "answer": "B",
+    "explanation": "The principle of least privilege limits access to reduce potential security risks."
+  },
+  {
+    "id": 24,
+    "domain": "Security Principles",
+    "question": "What is a vulnerability in the context of cybersecurity?",
+    "options": {
+      "A": "A weakness that can be exploited",
+      "B": "A security policy",
+      "C": "An attacker technique",
+      "D": "A type of malware"
+    },
+    "answer": "A",
+    "explanation": "A vulnerability is a flaw or weakness in a system that can be exploited by threats."
+  },
+  {
+    "id": 25,
+    "domain": "Security Principles",
+    "question": "Which of these is a preventive control?",
+    "options": {
+      "A": "Log monitoring",
+      "B": "Firewall",
+      "C": "Incident response plan",
+      "D": "Audit trail"
+    },
+    "answer": "B",
+    "explanation": "Preventive controls aim to stop security incidents before they happen, like firewalls."
+  },
+  {
+    "id": 26,
+    "domain": "Security Principles",
+    "question": "Which term describes the potential damage caused by a threat exploiting a vulnerability?",
+    "options": {
+      "A": "Risk",
+      "B": "Threat",
+      "C": "Impact",
+      "D": "Exposure"
+    },
+    "answer": "C",
+    "explanation": "Impact refers to the potential negative outcome of a threat exploiting a vulnerability."
+  },
+  {
+    "id": 27,
+    "domain": "Security Principles",
+    "question": "What is an example of an administrative control?",
+    "options": {
+      "A": "Security awareness training",
+      "B": "Encryption",
+      "C": "Biometric locks",
+      "D": "Firewall"
+    },
+    "answer": "A",
+    "explanation": "Administrative controls involve policies, procedures, and training to guide secure behavior."
+  },
+  {
+    "id": 28,
+    "domain": "Security Principles",
+    "question": "Which of the following best defines 'integrity' in the CIA triad?",
+    "options": {
+      "A": "Information is available when needed",
+      "B": "Information is protected from unauthorized modification",
+      "C": "Only authorized users can access information",
+      "D": "Information is encrypted"
+    },
+    "answer": "B",
+    "explanation": "Integrity ensures that data is accurate, complete, and unaltered."
+  },
+  {
+    "id": 29,
+    "domain": "Security Principles",
+    "question": "Which of these is considered a technical control?",
+    "options": {
+      "A": "Security policy",
+      "B": "Firewall",
+      "C": "Employee training",
+      "D": "Physical locks"
+    },
+    "answer": "B",
+    "explanation": "Technical controls use technology to protect assets, like firewalls or antivirus software."
+  },
+  {
+    "id": 30,
+    "domain": "Security Principles",
+    "question": "What is the purpose of defense in depth?",
+    "options": {
+      "A": "To encrypt all data",
+      "B": "To provide multiple layers of security",
+      "C": "To simplify access",
+      "D": "To monitor only perimeter threats"
+    },
+    "answer": "B",
+    "explanation": "Defense in depth uses multiple security layers so if one fails, others still protect the system."
+  },
+  {
+    "id": 31,
+    "domain": "Security Principles",
+    "question": "Which of these is an example of a detective control?",
+    "options": {
+      "A": "Firewall",
+      "B": "Security audit",
+      "C": "Access card",
+      "D": "Password policy"
+    },
+    "answer": "B",
+    "explanation": "Detective controls identify and alert on incidents after they occur, such as audits or log reviews."
+  },
+  {
+    "id": 32,
+    "domain": "Security Principles",
+    "question": "Which term refers to the likelihood that a threat will exploit a vulnerability?",
+    "options": {
+      "A": "Impact",
+      "B": "Risk",
+      "C": "Control",
+      "D": "Exposure"
+    },
+    "answer": "B",
+    "explanation": "Risk is the combination of likelihood and impact of a threat exploiting a vulnerability."
+  },
+  {
+    "id": 33,
+    "domain": "Security Principles",
+    "question": "Which of the following is considered a corrective control?",
+    "options": {
+      "A": "Antivirus software",
+      "B": "Patch management",
+      "C": "Encryption",
+      "D": "Firewall"
+    },
+    "answer": "B",
+    "explanation": "Corrective controls restore systems after a security incident, like applying patches to fix vulnerabilities."
+  },
+  {
+    "id": 34,
+    "domain": "Security Principles",
+    "question": "Which principle ensures critical tasks require more than one person to complete?",
+    "options": {
+      "A": "Segregation of duties",
+      "B": "Least privilege",
+      "C": "Defense in depth",
+      "D": "Confidentiality"
+    },
+    "answer": "A",
+    "explanation": "Segregation of duties reduces the risk of fraud or errors by requiring multiple individuals to complete sensitive tasks."
+  },
+  {
+    "id": 35,
+    "domain": "Security Principles",
+    "question": "Which type of control is implemented after a security incident to prevent recurrence?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Physical"
+    },
+    "answer": "C",
+    "explanation": "Corrective controls fix issues or restore systems after incidents to prevent similar future events."
+  },
+  {
+    "id": 36,
+    "domain": "Security Principles",
+    "question": "Which term describes software or hardware designed to prevent unauthorized access to a network?",
+    "options": {
+      "A": "Antivirus",
+      "B": "Firewall",
+      "C": "VPN",
+      "D": "IDS"
+    },
+    "answer": "B",
+    "explanation": "Firewalls monitor and block unauthorized network access based on rules."
+  },
+  {
+    "id": 37,
+    "domain": "Security Principles",
+    "question": "Which of the following is a common example of a threat?",
+    "options": {
+      "A": "Malware infection",
+      "B": "Encryption",
+      "C": "Access control",
+      "D": "Patch update"
+    },
+    "answer": "A",
+    "explanation": "A threat is any potential danger that can exploit a vulnerability, such as malware."
+  },
+  {
+    "id": 38,
+    "domain": "Security Principles",
+    "question": "Which term describes the overall exposure to potential loss or damage?",
+    "options": {
+      "A": "Vulnerability",
+      "B": "Threat",
+      "C": "Risk",
+      "D": "Control"
+    },
+    "answer": "C",
+    "explanation": "Risk represents the potential for loss or damage considering threats and vulnerabilities."
+  },
+  {
+    "id": 39,
+    "domain": "Security Principles",
+    "question": "What does 'availability' ensure in cybersecurity?",
+    "options": {
+      "A": "Data is protected from unauthorized access",
+      "B": "Data is accurate and unaltered",
+      "C": "Data is accessible when needed",
+      "D": "Data is encrypted"
+    },
+    "answer": "C",
+    "explanation": "Availability ensures information and resources are accessible to authorized users when required."
+  },
+  {
+    "id": 40,
+    "domain": "Security Principles",
+    "question": "Which of the following best describes 'need-to-know'?",
+    "options": {
+      "A": "Users can access any system if they want",
+      "B": "Access is granted only to those who require it for their job",
+      "C": "Everyone has the same level of access",
+      "D": "Access is always denied"
+    },
+    "answer": "B",
+    "explanation": "Need-to-know restricts access to only those who require information for their tasks."
+  },
+  {
+    "id": 41,
+    "domain": "Security Principles",
+    "question": "Which security control type involves policies, procedures, and guidelines?",
+    "options": {
+      "A": "Technical",
+      "B": "Administrative",
+      "C": "Physical",
+      "D": "Detective"
+    },
+    "answer": "B",
+    "explanation": "Administrative controls govern organizational policies, training, and procedures."
+  },
+  {
+    "id": 42,
+    "domain": "Security Principles",
+    "question": "Which term refers to multiple layers of security to protect assets?",
+    "options": {
+      "A": "Defense in depth",
+      "B": "Segregation of duties",
+      "C": "Need-to-know",
+      "D": "Risk management"
+    },
+    "answer": "A",
+    "explanation": "Defense in depth provides redundancy through multiple security layers to reduce risk."
+  },
+  {
+    "id": 43,
+    "domain": "Security Principles",
+    "question": "Which of these is considered a detective control in cybersecurity?",
+    "options": {
+      "A": "Antivirus software",
+      "B": "Intrusion detection system (IDS)",
+      "C": "Firewall",
+      "D": "Access card"
+    },
+    "answer": "B",
+    "explanation": "IDS monitors systems and alerts on potential security incidents after they occur."
+  },
+  {
+    "id": 44,
+    "domain": "Security Principles",
+    "question": "What is the main purpose of a security policy?",
+    "options": {
+      "A": "To define acceptable behavior and controls",
+      "B": "To install software updates",
+      "C": "To monitor network traffic",
+      "D": "To encrypt all data"
+    },
+    "answer": "A",
+    "explanation": "Security policies provide guidelines and rules for protecting organizational assets."
+  },
+  {
+    "id": 45,
+    "domain": "Security Principles",
+    "question": "Which principle ensures that critical actions require more than one individual?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Segregation of duties",
+      "C": "Defense in depth",
+      "D": "Availability"
+    },
+    "answer": "B",
+    "explanation": "Segregation of duties reduces risk by requiring multiple individuals to complete sensitive tasks."
+  },
+  {
+    "id": 46,
+    "domain": "Security Principles",
+    "question": "Which of these best describes an exploit?",
+    "options": {
+      "A": "A weakness in software",
+      "B": "A method used to take advantage of a vulnerability",
+      "C": "A security patch",
+      "D": "A network monitoring tool"
+    },
+    "answer": "B",
+    "explanation": "An exploit is a technique used by attackers to leverage a vulnerability and gain unauthorized access."
+  },
+  {
+    "id": 47,
+    "domain": "Security Principles",
+    "question": "Which term describes the potential loss from a security incident?",
+    "options": {
+      "A": "Vulnerability",
+      "B": "Threat",
+      "C": "Risk",
+      "D": "Control"
+    },
+    "answer": "C",
+    "explanation": "Risk combines the likelihood and impact of a threat exploiting a vulnerability."
+  },
+  {
+    "id": 48,
+    "domain": "Security Principles",
+    "question": "Which of these is an example of a preventive control?",
+    "options": {
+      "A": "Log review",
+      "B": "Firewall",
+      "C": "Audit",
+      "D": "Incident report"
+    },
+    "answer": "B",
+    "explanation": "Preventive controls stop incidents before they occur, such as firewalls or access restrictions."
+  },
+  {
+    "id": 49,
+    "domain": "Security Principles",
+    "question": "Which principle restricts access to information based on roles?",
+    "options": {
+      "A": "Role-based access control (RBAC)",
+      "B": "Need-to-know",
+      "C": "Least privilege",
+      "D": "Separation of duties"
+    },
+    "answer": "A",
+    "explanation": "RBAC assigns permissions based on a user's role within the organization."
+  },
+  {
+    "id": 50,
+    "domain": "Security Principles",
+    "question": "What is the main goal of encryption?",
+    "options": {
+      "A": "Prevent system crashes",
+      "B": "Ensure confidentiality by converting data to unreadable format",
+      "C": "Monitor user activity",
+      "D": "Install security patches"
+    },
+    "answer": "B",
+    "explanation": "Encryption protects information by converting it into a form only authorized users can read."
+  },
+  {
+    "id": 51,
+    "domain": "Security Principles",
+    "question": "Which type of security control detects and alerts on potential incidents?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "B",
+    "explanation": "Detective controls identify security events as they occur or after they have occurred."
+  },
+  {
+    "id": 52,
+    "domain": "Security Principles",
+    "question": "Which term describes deliberate actions to exploit system weaknesses?",
+    "options": {
+      "A": "Threat",
+      "B": "Vulnerability",
+      "C": "Risk",
+      "D": "Incident"
+    },
+    "answer": "A",
+    "explanation": "A threat is any potential danger that could exploit a vulnerability to cause harm."
+  },
+  {
+    "id": 53,
+    "domain": "Security Principles",
+    "question": "Which of the following is a core concept of cybersecurity governance?",
+    "options": {
+      "A": "Setting policies and oversight",
+      "B": "Installing antivirus",
+      "C": "Running network scans",
+      "D": "Encrypting files"
+    },
+    "answer": "A",
+    "explanation": "Governance ensures that security decisions align with business objectives through policies and oversight."
+  },
+  {
+    "id": 54,
+    "domain": "Security Principles",
+    "question": "Which of these is a key goal of risk management?",
+    "options": {
+      "A": "Eliminate all risks",
+      "B": "Identify, assess, and mitigate risks",
+      "C": "Ignore low-level threats",
+      "D": "Only use technical controls"
+    },
+    "answer": "B",
+    "explanation": "Risk management systematically identifies, evaluates, and mitigates risks to acceptable levels."
+  },
+  {
+    "id": 55,
+    "domain": "Security Principles",
+    "question": "Which term describes a weakness that can be exploited by a threat actor?",
+    "options": {
+      "A": "Vulnerability",
+      "B": "Risk",
+      "C": "Incident",
+      "D": "Control"
+    },
+    "answer": "A",
+    "explanation": "Vulnerabilities are flaws that could be leveraged by attackers to compromise systems."
+  },
+  {
+    "id": 56,
+    "domain": "Security Principles",
+    "question": "Which security principle prevents one person from having complete control over a critical process?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Segregation of duties",
+      "C": "Defense in depth",
+      "D": "Need-to-know"
+    },
+    "answer": "B",
+    "explanation": "Segregation of duties divides responsibilities to reduce fraud or errors."
+  },
+  {
+    "id": 57,
+    "domain": "Security Principles",
+    "question": "Which of the following is a good example of a corrective control?",
+    "options": {
+      "A": "Antivirus scanning",
+      "B": "Applying security patches",
+      "C": "Strong passwords",
+      "D": "Firewalls"
+    },
+    "answer": "B",
+    "explanation": "Corrective controls restore systems or fix vulnerabilities after an incident."
+  },
+  {
+    "id": 58,
+    "domain": "Security Principles",
+    "question": "Which principle ensures that sensitive information is only accessible to authorized users?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Defense in depth"
+    },
+    "answer": "A",
+    "explanation": "Confidentiality ensures that sensitive data is only accessed by authorized personnel."
+  },
+  {
+    "id": 59,
+    "domain": "Security Principles",
+    "question": "Which of the following is a technical control?",
+    "options": {
+      "A": "Security training",
+      "B": "Firewall",
+      "C": "Security policy",
+      "D": "Access review"
+    },
+    "answer": "B",
+    "explanation": "Technical controls use technology to protect systems, like firewalls or intrusion detection systems."
+  },
+  {
+    "id": 60,
+    "domain": "Security Principles",
+    "question": "Which term describes the ability of a system to continue operating during a disruption?",
+    "options": {
+      "A": "Availability",
+      "B": "Confidentiality",
+      "C": "Integrity",
+      "D": "Authentication"
+    },
+    "answer": "A",
+    "explanation": "Availability ensures users can access resources when needed, even during disruptions."
+  },
+  {
+    "id": 61,
+    "domain": "Security Principles",
+    "question": "Which of the following is a preventive measure to protect data at rest?",
+    "options": {
+      "A": "Encryption",
+      "B": "Log monitoring",
+      "C": "Incident response plan",
+      "D": "Security audit"
+    },
+    "answer": "A",
+    "explanation": "Encrypting data at rest protects it from unauthorized access even if storage is compromised."
+  },
+  {
+    "id": 62,
+    "domain": "Security Principles",
+    "question": "Which security concept involves evaluating assets, threats, and vulnerabilities?",
+    "options": {
+      "A": "Risk assessment",
+      "B": "Penetration testing",
+      "C": "Security policy",
+      "D": "Access control"
+    },
+    "answer": "A",
+    "explanation": "Risk assessment identifies and evaluates potential security risks to prioritize mitigation strategies."
+  },
+  {
+    "id": 63,
+    "domain": "Security Principles",
+    "question": "Which of these best describes defense in depth?",
+    "options": {
+      "A": "Using multiple layers of security controls",
+      "B": "Granting all users admin access",
+      "C": "Performing a single security audit",
+      "D": "Encrypting only critical files"
+    },
+    "answer": "A",
+    "explanation": "Defense in depth layers multiple security controls to protect assets even if one control fails."
+  },
+  {
+    "id": 64,
+    "domain": "Security Principles",
+    "question": "Which principle ensures users cannot bypass controls to perform unauthorized actions?",
+    "options": {
+      "A": "Separation of duties",
+      "B": "Least privilege",
+      "C": "Non-repudiation",
+      "D": "Authentication"
+    },
+    "answer": "B",
+    "explanation": "Least privilege restricts user permissions to only what is necessary, reducing unauthorized actions."
+  },
+  {
+    "id": 65,
+    "domain": "Security Principles",
+    "question": "Which of the following is an example of an administrative control?",
+    "options": {
+      "A": "Firewalls",
+      "B": "Security awareness training",
+      "C": "Encryption",
+      "D": "Intrusion detection system"
+    },
+    "answer": "B",
+    "explanation": "Administrative controls include policies, procedures, and training to guide secure behavior."
+  },
+  {
+    "id": 66,
+    "domain": "Security Principles",
+    "question": "Which type of security control detects unauthorized activity after it occurs?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Physical"
+    },
+    "answer": "B",
+    "explanation": "Detective controls monitor and alert on incidents once they happen, such as log analysis or IDS."
+  },
+  {
+    "id": 67,
+    "domain": "Security Principles",
+    "question": "Which principle restricts access to information unless required for a task?",
+    "options": {
+      "A": "Need-to-know",
+      "B": "Separation of duties",
+      "C": "Defense in depth",
+      "D": "Availability"
+    },
+    "answer": "A",
+    "explanation": "Need-to-know ensures sensitive information is only available to individuals who require it."
+  },
+  {
+    "id": 68,
+    "domain": "Security Principles",
+    "question": "Which of the following best defines integrity in information security?",
+    "options": {
+      "A": "Data is accessible only to authorized users",
+      "B": "Data is accurate and unaltered",
+      "C": "Data is backed up regularly",
+      "D": "Data is encrypted in transit"
+    },
+    "answer": "B",
+    "explanation": "Integrity ensures data remains accurate, complete, and unmodified by unauthorized users."
+  },
+  {
+    "id": 69,
+    "domain": "Security Principles",
+    "question": "Which type of control restores systems to a secure state after an incident?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "C",
+    "explanation": "Corrective controls fix issues or restore systems to prevent recurrence after a security incident."
+  },
+  {
+    "id": 70,
+    "domain": "Security Principles",
+    "question": "Which of these is an example of a threat actor?",
+    "options": {
+      "A": "Malware",
+      "B": "Hacker",
+      "C": "Firewall",
+      "D": "Encryption"
+    },
+    "answer": "B",
+    "explanation": "A threat actor is an individual or group that attempts to exploit vulnerabilities, such as hackers."
+  },
+  {
+    "id": 71,
+    "domain": "Security Principles",
+    "question": "Which security concept measures the likelihood and impact of a potential threat?",
+    "options": {
+      "A": "Risk",
+      "B": "Vulnerability",
+      "C": "Control",
+      "D": "Audit"
+    },
+    "answer": "A",
+    "explanation": "Risk evaluates both the probability and consequences of threats exploiting vulnerabilities."
+  },
+  {
+    "id": 72,
+    "domain": "Security Principles",
+    "question": "Which of the following is a technical control designed to prevent unauthorized network access?",
+    "options": {
+      "A": "Firewall",
+      "B": "Security policy",
+      "C": "Training program",
+      "D": "Audit review"
+    },
+    "answer": "A",
+    "explanation": "Firewalls are technical controls that block or allow network traffic based on rules."
+  },
+  {
+    "id": 73,
+    "domain": "Security Principles",
+    "question": "Which principle ensures that no single individual has complete control over critical tasks?",
+    "options": {
+      "A": "Segregation of duties",
+      "B": "Least privilege",
+      "C": "Non-repudiation",
+      "D": "Defense in depth"
+    },
+    "answer": "A",
+    "explanation": "Segregation of duties distributes responsibilities to reduce the risk of errors or fraud."
+  },
+  {
+    "id": 74,
+    "domain": "Security Principles",
+    "question": "Which of the following is an example of a corrective control?",
+    "options": {
+      "A": "Antivirus scanning",
+      "B": "Applying patches",
+      "C": "Access card",
+      "D": "Firewall"
+    },
+    "answer": "B",
+    "explanation": "Corrective controls address security weaknesses after they are discovered, like applying patches."
+  },
+  {
+    "id": 75,
+    "domain": "Security Principles",
+    "question": "Which term refers to the risk of unauthorized disclosure of information?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Authentication"
+    },
+    "answer": "A",
+    "explanation": "Confidentiality protects information from unauthorized access or disclosure."
+  },
+  {
+    "id": 76,
+    "domain": "Security Principles",
+    "question": "Which of these is a preventive control aimed at users?",
+    "options": {
+      "A": "Security awareness training",
+      "B": "Antivirus software",
+      "C": "Firewall",
+      "D": "IDS"
+    },
+    "answer": "A",
+    "explanation": "Training and awareness programs prevent user mistakes that could lead to security incidents."
+  },
+  {
+    "id": 77,
+    "domain": "Security Principles",
+    "question": "Which type of control identifies security incidents as they occur?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "B",
+    "explanation": "Detective controls monitor systems and alert administrators when events occur."
+  },
+  {
+    "id": 78,
+    "domain": "Security Principles",
+    "question": "Which principle limits access to information based on role or responsibility?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Role-based access control",
+      "C": "Segregation of duties",
+      "D": "Defense in depth"
+    },
+    "answer": "B",
+    "explanation": "RBAC assigns permissions based on a user’s role to ensure only authorized access."
+  },
+  {
+    "id": 79,
+    "domain": "Security Principles",
+    "question": "Which of these best describes integrity?",
+    "options": {
+      "A": "Data is only available to authorized users",
+      "B": "Data remains accurate and unaltered",
+      "C": "Systems are always online",
+      "D": "Data is encrypted"
+    },
+    "answer": "B",
+    "explanation": "Integrity ensures data cannot be modified by unauthorized individuals or processes."
+  },
+  {
+    "id": 80,
+    "domain": "Security Principles",
+    "question": "Which term describes a potential danger that could exploit a weakness in a system?",
+    "options": {
+      "A": "Threat",
+      "B": "Vulnerability",
+      "C": "Control",
+      "D": "Exposure"
+    },
+    "answer": "A",
+    "explanation": "A threat is any potential event that could negatively impact assets by exploiting vulnerabilities."
+  },
+  {
+    "id": 81,
+    "domain": "Security Principles",
+    "question": "Which type of control aims to stop security incidents before they happen?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "A",
+    "explanation": "Preventive controls are designed to prevent security incidents, such as firewalls, access restrictions, and encryption."
+  },
+  {
+    "id": 82,
+    "domain": "Security Principles",
+    "question": "Which of the following describes non-repudiation?",
+    "options": {
+      "A": "Ensuring data remains confidential",
+      "B": "Preventing a user from denying their actions",
+      "C": "Restoring systems after a failure",
+      "D": "Limiting access to sensitive data"
+    },
+    "answer": "B",
+    "explanation": "Non-repudiation ensures that a user cannot deny having performed a specific action, often using digital signatures or logs."
+  },
+  {
+    "id": 83,
+    "domain": "Security Principles",
+    "question": "Which of these is a common example of a detective control?",
+    "options": {
+      "A": "Antivirus software",
+      "B": "Security audit",
+      "C": "Firewall",
+      "D": "Access card"
+    },
+    "answer": "B",
+    "explanation": "Security audits are detective controls that identify potential security incidents after they occur."
+  },
+  {
+    "id": 84,
+    "domain": "Security Principles",
+    "question": "Which principle ensures that users are given only the permissions needed for their tasks?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Separation of duties",
+      "C": "Need-to-know",
+      "D": "Defense in depth"
+    },
+    "answer": "A",
+    "explanation": "Least privilege reduces the risk of unauthorized actions by restricting permissions to the minimum required."
+  },
+  {
+    "id": 85,
+    "domain": "Security Principles",
+    "question": "Which type of security control corrects systems after an incident has occurred?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "C",
+    "explanation": "Corrective controls restore systems to a secure state and fix vulnerabilities after incidents."
+  },
+  {
+    "id": 86,
+    "domain": "Security Principles",
+    "question": "Which term refers to a weakness that can be exploited by a threat?",
+    "options": {
+      "A": "Vulnerability",
+      "B": "Threat",
+      "C": "Risk",
+      "D": "Control"
+    },
+    "answer": "A",
+    "explanation": "A vulnerability is a flaw or weakness in a system that could be exploited by a threat actor."
+  },
+  {
+    "id": 87,
+    "domain": "Security Principles",
+    "question": "Which principle divides responsibility for critical tasks among multiple individuals?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Separation of duties",
+      "C": "Defense in depth",
+      "D": "Non-repudiation"
+    },
+    "answer": "B",
+    "explanation": "Separation of duties reduces risk of errors or fraud by requiring multiple people to complete sensitive processes."
+  },
+  {
+    "id": 88,
+    "domain": "Security Principles",
+    "question": "Which principle restricts access to information only to those who require it for their tasks?",
+    "options": {
+      "A": "Need-to-know",
+      "B": "Least privilege",
+      "C": "Segregation of duties",
+      "D": "Non-repudiation"
+    },
+    "answer": "A",
+    "explanation": "Need-to-know ensures sensitive information is only available to users who need it for their work."
+  },
+  {
+    "id": 89,
+    "domain": "Security Principles",
+    "question": "Which of the following best describes confidentiality?",
+    "options": {
+      "A": "Ensuring data is accurate and unaltered",
+      "B": "Ensuring only authorized users can access information",
+      "C": "Ensuring systems are available",
+      "D": "Encrypting all files"
+    },
+    "answer": "B",
+    "explanation": "Confidentiality protects information from unauthorized access or disclosure."
+  },
+  {
+    "id": 90,
+    "domain": "Security Principles",
+    "question": "Which of these is considered a technical control?",
+    "options": {
+      "A": "Firewall",
+      "B": "Security policy",
+      "C": "Training program",
+      "D": "Audit"
+    },
+    "answer": "A",
+    "explanation": "Technical controls use technology to protect systems, such as firewalls, encryption, or IDS."
+  },
+  {
+    "id": 91,
+    "domain": "Security Principles",
+    "question": "Which principle ensures data is accurate and unaltered?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Defense in depth"
+    },
+    "answer": "B",
+    "explanation": "Integrity ensures that data is reliable, complete, and has not been modified without authorization."
+  },
+  {
+    "id": 92,
+    "domain": "Security Principles",
+    "question": "Which term describes an event that may exploit a vulnerability to cause harm?",
+    "options": {
+      "A": "Threat",
+      "B": "Risk",
+      "C": "Control",
+      "D": "Exposure"
+    },
+    "answer": "A",
+    "explanation": "A threat is any potential event or actor that could negatively impact assets by exploiting vulnerabilities."
+  },
+  {
+    "id": 93,
+    "domain": "Security Principles",
+    "question": "Which of the following is an example of an administrative control?",
+    "options": {
+      "A": "Firewall",
+      "B": "Security awareness training",
+      "C": "Intrusion detection system",
+      "D": "Encryption"
+    },
+    "answer": "B",
+    "explanation": "Administrative controls include policies, procedures, and training that guide secure behavior."
+  },
+  {
+    "id": 94,
+    "domain": "Security Principles",
+    "question": "Which principle provides multiple layers of security to reduce risk?",
+    "options": {
+      "A": "Defense in depth",
+      "B": "Least privilege",
+      "C": "Segregation of duties",
+      "D": "Non-repudiation"
+    },
+    "answer": "A",
+    "explanation": "Defense in depth uses several security layers so that if one fails, others still protect the system."
+  },
+  {
+    "id": 95,
+    "domain": "Security Principles",
+    "question": "Which of these best describes a corrective control?",
+    "options": {
+      "A": "Prevents security incidents",
+      "B": "Detects security incidents",
+      "C": "Restores systems after an incident",
+      "D": "Restricts user access"
+    },
+    "answer": "C",
+    "explanation": "Corrective controls fix systems or processes after a security incident to prevent recurrence."
+  },
+  {
+    "id": 96,
+    "domain": "Security Principles",
+    "question": "Which principle prevents users from having more access than necessary?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Need-to-know",
+      "C": "Segregation of duties",
+      "D": "Defense in depth"
+    },
+    "answer": "A",
+    "explanation": "Least privilege limits permissions to the minimum needed to perform tasks."
+  },
+  {
+    "id": 97,
+    "domain": "Security Principles",
+    "question": "Which type of control identifies security incidents after they occur?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "B",
+    "explanation": "Detective controls monitor systems and alert administrators when an incident happens."
+  },
+  {
+    "id": 98,
+    "domain": "Security Principles",
+    "question": "Which term refers to the likelihood and impact of a threat exploiting a vulnerability?",
+    "options": {
+      "A": "Risk",
+      "B": "Control",
+      "C": "Threat",
+      "D": "Exposure"
+    },
+    "answer": "A",
+    "explanation": "Risk is the combination of the probability and consequences of a threat exploiting a vulnerability."
+  },
+  {
+    "id": 99,
+    "domain": "Security Principles",
+    "question": "Which of these is a common example of a threat?",
+    "options": {
+      "A": "Malware",
+      "B": "Firewall",
+      "C": "Encryption",
+      "D": "Access policy"
+    },
+    "answer": "A",
+    "explanation": "A threat is a potential danger that could exploit a vulnerability, such as malware."
+  },
+  {
+    "id": 100,
+    "domain": "Security Principles",
+    "question": "Which principle ensures that sensitive tasks require more than one person to execute?",
+    "options": {
+      "A": "Segregation of duties",
+      "B": "Least privilege",
+      "C": "Defense in depth",
+      "D": "Non-repudiation"
+    },
+    "answer": "A",
+    "explanation": "Segregation of duties reduces the risk of fraud or errors by requiring multiple individuals for critical tasks."
+  },
+  {
+    "id": 101,
+    "domain": "Security Principles",
+    "question": "Which type of security control uses technology to enforce protection?",
+    "options": {
+      "A": "Administrative",
+      "B": "Technical",
+      "C": "Physical",
+      "D": "Detective"
+    },
+    "answer": "B",
+    "explanation": "Technical controls use technology, such as firewalls, antivirus, and encryption, to secure systems."
+  },
+  {
+    "id": 102,
+    "domain": "Security Principles",
+    "question": "Which term refers to a deliberate attempt to compromise security?",
+    "options": {
+      "A": "Threat",
+      "B": "Vulnerability",
+      "C": "Risk",
+      "D": "Control"
+    },
+    "answer": "A",
+    "explanation": "A threat is any potential danger, often deliberate, that could exploit vulnerabilities to cause harm."
+  },
+  {
+    "id": 103,
+    "domain": "Security Principles",
+    "question": "Which security principle ensures that systems continue to operate during disruptions?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Non-repudiation"
+    },
+    "answer": "C",
+    "explanation": "Availability ensures authorized users have access to systems and data when needed."
+  },
+  {
+    "id": 104,
+    "domain": "Security Principles",
+    "question": "Which of the following is an example of a preventive technical control?",
+    "options": {
+      "A": "Antivirus software",
+      "B": "Log review",
+      "C": "Incident response plan",
+      "D": "Security audit"
+    },
+    "answer": "A",
+    "explanation": "Antivirus software prevents malware infections before they occur, making it a preventive control."
+  },
+  {
+    "id": 105,
+    "domain": "Security Principles",
+    "question": "Which principle ensures sensitive information is only shared with those authorized?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Need-to-know",
+      "C": "Defense in depth",
+      "D": "Segregation of duties"
+    },
+    "answer": "B",
+    "explanation": "Need-to-know restricts information access to individuals who require it for their role."
+  },
+  {
+    "id": 106,
+    "domain": "Security Principles",
+    "question": "Which type of control identifies problems after they have occurred?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "B",
+    "explanation": "Detective controls, such as IDS or log reviews, detect security incidents after they occur."
+  },
+  {
+    "id": 107,
+    "domain": "Security Principles",
+    "question": "Which security control restores systems after a vulnerability has been exploited?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "C",
+    "explanation": "Corrective controls remediate or restore systems after security incidents."
+  },
+  {
+    "id": 108,
+    "domain": "Security Principles",
+    "question": "Which term describes flaws in a system that could be exploited?",
+    "options": {
+      "A": "Vulnerability",
+      "B": "Threat",
+      "C": "Risk",
+      "D": "Incident"
+    },
+    "answer": "A",
+    "explanation": "Vulnerabilities are weaknesses in systems that can be exploited by threats."
+  },
+  {
+    "id": 109,
+    "domain": "Security Principles",
+    "question": "Which principle restricts a user's permissions to only what is needed?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Need-to-know",
+      "C": "Segregation of duties",
+      "D": "Defense in depth"
+    },
+    "answer": "A",
+    "explanation": "Least privilege reduces security risk by limiting user access to only what is necessary."
+  },
+  {
+    "id": 110,
+    "domain": "Security Principles",
+    "question": "Which of the following is a preventive measure to protect data in transit?",
+    "options": {
+      "A": "Encryption",
+      "B": "Log monitoring",
+      "C": "Security training",
+      "D": "Audit"
+    },
+    "answer": "A",
+    "explanation": "Encryption protects data in transit by converting it into a secure, unreadable format."
+  },
+  {
+    "id": 111,
+    "domain": "Security Principles",
+    "question": "Which principle ensures no single person has complete control over sensitive operations?",
+    "options": {
+      "A": "Segregation of duties",
+      "B": "Least privilege",
+      "C": "Non-repudiation",
+      "D": "Defense in depth"
+    },
+    "answer": "A",
+    "explanation": "Segregation of duties reduces the risk of errors or fraud by dividing responsibilities."
+  },
+  {
+    "id": 112,
+    "domain": "Security Principles",
+    "question": "Which type of security control governs organizational policies and procedures?",
+    "options": {
+      "A": "Technical",
+      "B": "Administrative",
+      "C": "Physical",
+      "D": "Detective"
+    },
+    "answer": "B",
+    "explanation": "Administrative controls include policies, training, and procedures to guide secure operations."
+  },
+  {
+    "id": 113,
+    "domain": "Security Principles",
+    "question": "Which of the following ensures that data cannot be modified by unauthorized users?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Authentication"
+    },
+    "answer": "B",
+    "explanation": "Integrity ensures that data remains accurate, complete, and unaltered without proper authorization."
+  },
+  {
+    "id": 114,
+    "domain": "Security Principles",
+    "question": "Which security principle focuses on multiple overlapping layers of protection?",
+    "options": {
+      "A": "Defense in depth",
+      "B": "Need-to-know",
+      "C": "Least privilege",
+      "D": "Segregation of duties"
+    },
+    "answer": "A",
+    "explanation": "Defense in depth uses multiple layers of controls to protect systems if one layer fails."
+  },
+  {
+    "id": 115,
+    "domain": "Security Principles",
+    "question": "Which type of control prevents unauthorized access to systems?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "A",
+    "explanation": "Preventive controls stop security incidents before they occur, such as firewalls and access restrictions."
+  },
+  {
+    "id": 116,
+    "domain": "Security Principles",
+    "question": "Which principle ensures accountability and prevents users from denying actions?",
+    "options": {
+      "A": "Non-repudiation",
+      "B": "Segregation of duties",
+      "C": "Least privilege",
+      "D": "Defense in depth"
+    },
+    "answer": "A",
+    "explanation": "Non-repudiation provides proof of actions to prevent individuals from denying their activities."
+  },
+  {
+    "id": 117,
+    "domain": "Security Principles",
+    "question": "Which of the following is a detective technical control?",
+    "options": {
+      "A": "IDS",
+      "B": "Firewall",
+      "C": "Security training",
+      "D": "Patch management"
+    },
+    "answer": "A",
+    "explanation": "An IDS monitors systems and alerts on potential security incidents after they occur."
+  },
+  {
+    "id": 118,
+    "domain": "Security Principles",
+    "question": "Which type of security control addresses vulnerabilities after they are discovered?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "C",
+    "explanation": "Corrective controls remediate systems or processes after vulnerabilities or incidents are identified."
+  },
+  {
+    "id": 119,
+    "domain": "Security Principles",
+    "question": "Which principle ensures information is shared only with those authorized to access it?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Need-to-know",
+      "C": "Segregation of duties",
+      "D": "Defense in depth"
+    },
+    "answer": "B",
+    "explanation": "Need-to-know restricts access to sensitive information to only those who require it for their tasks."
+  },
+  {
+    "id": 120,
+    "domain": "Security Principles",
+    "question": "Which term describes the potential for loss from a threat exploiting a vulnerability?",
+    "options": {
+      "A": "Risk",
+      "B": "Control",
+      "C": "Threat",
+      "D": "Vulnerability"
+    },
+    "answer": "A",
+    "explanation": "Risk evaluates both the likelihood and impact of a threat exploiting a vulnerability."
+  },
+  {
+    "id": 121,
+    "domain": "Security Principles",
+    "question": "Which type of control uses physical barriers to prevent unauthorized access?",
+    "options": {
+      "A": "Technical",
+      "B": "Administrative",
+      "C": "Physical",
+      "D": "Detective"
+    },
+    "answer": "C",
+    "explanation": "Physical controls use tangible measures like locks, security guards, and fences to restrict access."
+  },
+  {
+    "id": 122,
+    "domain": "Security Principles",
+    "question": "Which security principle requires multiple controls to secure critical assets?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Defense in depth",
+      "C": "Non-repudiation",
+      "D": "Need-to-know"
+    },
+    "answer": "B",
+    "explanation": "Defense in depth layers multiple security controls to reduce the risk of a single point of failure."
+  },
+  {
+    "id": 123,
+    "domain": "Security Principles",
+    "question": "Which of the following is an example of a preventive administrative control?",
+    "options": {
+      "A": "Security policy",
+      "B": "Firewall",
+      "C": "IDS",
+      "D": "Encryption"
+    },
+    "answer": "A",
+    "explanation": "Administrative policies and procedures guide behavior and prevent security incidents before they occur."
+  },
+  {
+    "id": 124,
+    "domain": "Security Principles",
+    "question": "Which principle ensures accountability by tracking user activities?",
+    "options": {
+      "A": "Integrity",
+      "B": "Non-repudiation",
+      "C": "Availability",
+      "D": "Confidentiality"
+    },
+    "answer": "B",
+    "explanation": "Non-repudiation ensures actions can be traced back to the user to prevent denial of responsibility."
+  },
+  {
+    "id": 125,
+    "domain": "Security Principles",
+    "question": "Which type of control aims to prevent malware infections?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "A",
+    "explanation": "Preventive controls like antivirus software stop malware from infecting systems before damage occurs."
+  },
+  {
+    "id": 126,
+    "domain": "Security Principles",
+    "question": "Which principle ensures a user cannot perform actions outside their responsibilities?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Need-to-know",
+      "C": "Segregation of duties",
+      "D": "Defense in depth"
+    },
+    "answer": "A",
+    "explanation": "Least privilege restricts users to only the permissions necessary for their tasks."
+  },
+  {
+    "id": 127,
+    "domain": "Security Principles",
+    "question": "Which of the following is an example of a detective control?",
+    "options": {
+      "A": "Firewall",
+      "B": "IDS",
+      "C": "Security training",
+      "D": "Access card"
+    },
+    "answer": "B",
+    "explanation": "Intrusion detection systems (IDS) monitor for and alert on suspicious activity, making them detective controls."
+  },
+  {
+    "id": 128,
+    "domain": "Security Principles",
+    "question": "Which type of control restores systems to a secure state after an attack?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "C",
+    "explanation": "Corrective controls fix or restore systems after security incidents, such as patching vulnerabilities."
+  },
+  {
+    "id": 129,
+    "domain": "Security Principles",
+    "question": "Which term describes weaknesses in systems that can be exploited?",
+    "options": {
+      "A": "Vulnerability",
+      "B": "Threat",
+      "C": "Risk",
+      "D": "Control"
+    },
+    "answer": "A",
+    "explanation": "Vulnerabilities are flaws or weaknesses that threats can exploit to cause harm."
+  },
+  {
+    "id": 130,
+    "domain": "Security Principles",
+    "question": "Which principle restricts information access to those who require it for their role?",
+    "options": {
+      "A": "Need-to-know",
+      "B": "Least privilege",
+      "C": "Segregation of duties",
+      "D": "Defense in depth"
+    },
+    "answer": "A",
+    "explanation": "Need-to-know ensures only authorized individuals access specific information based on their role."
+  },
+  {
+    "id": 131,
+    "domain": "Security Principles",
+    "question": "Which security principle ensures data is accurate and unaltered?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Authentication"
+    },
+    "answer": "B",
+    "explanation": "Integrity protects data from unauthorized modification, ensuring accuracy and consistency."
+  },
+  {
+    "id": 132,
+    "domain": "Security Principles",
+    "question": "Which term evaluates the likelihood and impact of a threat exploiting a vulnerability?",
+    "options": {
+      "A": "Risk",
+      "B": "Threat",
+      "C": "Vulnerability",
+      "D": "Exposure"
+    },
+    "answer": "A",
+    "explanation": "Risk combines the probability and potential impact of a threat exploiting a vulnerability."
+  },
+  {
+    "id": 133,
+    "domain": "Security Principles",
+    "question": "Which principle requires critical operations to be divided among multiple users?",
+    "options": {
+      "A": "Segregation of duties",
+      "B": "Least privilege",
+      "C": "Defense in depth",
+      "D": "Need-to-know"
+    },
+    "answer": "A",
+    "explanation": "Segregation of duties reduces the risk of fraud or errors by ensuring no single individual has full control."
+  },
+  {
+    "id": 134,
+    "domain": "Security Principles",
+    "question": "Which type of control protects systems using encryption or access restrictions?",
+    "options": {
+      "A": "Technical",
+      "B": "Administrative",
+      "C": "Physical",
+      "D": "Detective"
+    },
+    "answer": "A",
+    "explanation": "Technical controls use technology to enforce security, such as encryption, firewalls, and access control systems."
+  },
+  {
+    "id": 135,
+    "domain": "Security Principles",
+    "question": "Which principle ensures actions can be traced to prevent denial of responsibility?",
+    "options": {
+      "A": "Non-repudiation",
+      "B": "Segregation of duties",
+      "C": "Least privilege",
+      "D": "Defense in depth"
+    },
+    "answer": "A",
+    "explanation": "Non-repudiation provides proof of actions to ensure accountability and prevent denial of actions."
+  },
+  {
+    "id": 136,
+    "domain": "Security Principles",
+    "question": "Which type of security control includes procedures, policies, and awareness programs?",
+    "options": {
+      "A": "Technical",
+      "B": "Administrative",
+      "C": "Physical",
+      "D": "Detective"
+    },
+    "answer": "B",
+    "explanation": "Administrative controls are management-directed measures like policies, training, and procedures."
+  },
+  {
+    "id": 137,
+    "domain": "Security Principles",
+    "question": "Which principle ensures critical systems are available when needed?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Non-repudiation"
+    },
+    "answer": "C",
+    "explanation": "Availability ensures that authorized users have timely access to systems and data."
+  },
+  {
+    "id": 138,
+    "domain": "Security Principles",
+    "question": "Which of these is an example of a detective technical control?",
+    "options": {
+      "A": "IDS",
+      "B": "Firewall",
+      "C": "Encryption",
+      "D": "Policy"
+    },
+    "answer": "A",
+    "explanation": "IDS monitors network or system activity and alerts on potential security incidents, making it detective."
+  },
+  {
+    "id": 139,
+    "domain": "Security Principles",
+    "question": "Which type of control restores security after a breach?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "C",
+    "explanation": "Corrective controls fix vulnerabilities or restore systems after incidents."
+  },
+  {
+    "id": 140,
+    "domain": "Security Principles",
+    "question": "Which principle limits access based on user role?",
+    "options": {
+      "A": "Need-to-know",
+      "B": "Role-based access control",
+      "C": "Least privilege",
+      "D": "Defense in depth"
+    },
+    "answer": "B",
+    "explanation": "RBAC assigns permissions based on role to ensure only authorized users access resources."
+  },
+  {
+    "id": 141,
+    "domain": "Security Principles",
+    "question": "Which term refers to an attacker attempting to exploit a system?",
+    "options": {
+      "A": "Threat actor",
+      "B": "Vulnerability",
+      "C": "Control",
+      "D": "Exposure"
+    },
+    "answer": "A",
+    "explanation": "A threat actor is an individual or group that may exploit system weaknesses."
+  },
+  {
+    "id": 142,
+    "domain": "Security Principles",
+    "question": "Which security principle ensures data is protected from unauthorized access?",
+    "options": {
+      "A": "Integrity",
+      "B": "Confidentiality",
+      "C": "Availability",
+      "D": "Non-repudiation"
+    },
+    "answer": "B",
+    "explanation": "Confidentiality ensures that sensitive information is only accessible to authorized users."
+  },
+  {
+    "id": 143,
+    "domain": "Security Principles",
+    "question": "Which type of control proactively prevents incidents through security measures?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "A",
+    "explanation": "Preventive controls stop incidents from occurring, such as firewalls and access restrictions."
+  },
+  {
+    "id": 144,
+    "domain": "Security Principles",
+    "question": "Which principle divides responsibilities to reduce the risk of fraud?",
+    "options": {
+      "A": "Segregation of duties",
+      "B": "Least privilege",
+      "C": "Defense in depth",
+      "D": "Need-to-know"
+    },
+    "answer": "A",
+    "explanation": "Segregation of duties prevents a single individual from controlling all aspects of a critical process."
+  },
+  {
+    "id": 145,
+    "domain": "Security Principles",
+    "question": "Which control type detects and alerts on suspicious activity?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "B",
+    "explanation": "Detective controls monitor systems and notify administrators when a security event occurs."
+  },
+  {
+    "id": 146,
+    "domain": "Security Principles",
+    "question": "Which term describes the process of identifying, evaluating, and mitigating risks?",
+    "options": {
+      "A": "Risk management",
+      "B": "Threat assessment",
+      "C": "Control audit",
+      "D": "Incident response"
+    },
+    "answer": "A",
+    "explanation": "Risk management involves assessing potential threats, vulnerabilities, and implementing controls to mitigate risks."
+  },
+  {
+    "id": 147,
+    "domain": "Security Principles",
+    "question": "Which type of control addresses vulnerabilities after they are exploited?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "C",
+    "explanation": "Corrective controls repair systems or mitigate effects after security incidents."
+  },
+  {
+    "id": 148,
+    "domain": "Security Principles",
+    "question": "Which principle restricts users from accessing data unrelated to their tasks?",
+    "options": {
+      "A": "Need-to-know",
+      "B": "Least privilege",
+      "C": "Defense in depth",
+      "D": "Segregation of duties"
+    },
+    "answer": "A",
+    "explanation": "Need-to-know ensures access is limited to only those who require the information for their role."
+  },
+  {
+    "id": 149,
+    "domain": "Security Principles",
+    "question": "Which term describes a flaw that could allow unauthorized access?",
+    "options": {
+      "A": "Vulnerability",
+      "B": "Threat",
+      "C": "Risk",
+      "D": "Control"
+    },
+    "answer": "A",
+    "explanation": "A vulnerability is a weakness in a system that could be exploited by threats."
+  },
+  {
+    "id": 150,
+    "domain": "Security Principles",
+    "question": "Which type of control prevents data breaches by limiting access?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "A",
+    "explanation": "Preventive controls, like access restrictions, stop unauthorized users from accessing sensitive data."
+  },
+  {
+    "id": 151,
+    "domain": "Security Principles",
+    "question": "Which principle ensures sensitive actions require more than one person?",
+    "options": {
+      "A": "Segregation of duties",
+      "B": "Least privilege",
+      "C": "Defense in depth",
+      "D": "Non-repudiation"
+    },
+    "answer": "A",
+    "explanation": "Segregation of duties reduces the risk of fraud by dividing critical tasks among multiple users."
+  },
+  {
+    "id": 152,
+    "domain": "Security Principles",
+    "question": "Which of the following is an example of a technical preventive control?",
+    "options": {
+      "A": "Firewall",
+      "B": "Security policy",
+      "C": "Training program",
+      "D": "Audit review"
+    },
+    "answer": "A",
+    "explanation": "Firewalls prevent unauthorized access to systems, making them a technical preventive control."
+  },
+  {
+    "id": 153,
+    "domain": "Security Principles",
+    "question": "Which principle ensures actions can be proven to have occurred?",
+    "options": {
+      "A": "Non-repudiation",
+      "B": "Integrity",
+      "C": "Confidentiality",
+      "D": "Availability"
+    },
+    "answer": "A",
+    "explanation": "Non-repudiation provides proof that a specific action or transaction took place, preventing denial."
+  },
+  {
+    "id": 154,
+    "domain": "Security Principles",
+    "question": "Which type of control detects abnormal behavior or incidents?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "B",
+    "explanation": "Detective controls, such as IDS and log monitoring, alert administrators to suspicious activity."
+  },
+  {
+    "id": 155,
+    "domain": "Security Principles",
+    "question": "Which principle ensures data is available when needed by authorized users?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Non-repudiation"
+    },
+    "answer": "C",
+    "explanation": "Availability ensures timely and reliable access to data and systems for authorized users."
+  },
+  {
+    "id": 156,
+    "domain": "Security Principles",
+    "question": "Which type of control addresses weaknesses after a security breach?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "C",
+    "explanation": "Corrective controls restore systems and prevent recurrence after incidents or vulnerabilities are discovered."
+  },
+  {
+    "id": 157,
+    "domain": "Security Principles",
+    "question": "Which term evaluates potential harm and probability of a threat exploiting a vulnerability?",
+    "options": {
+      "A": "Risk",
+      "B": "Threat",
+      "C": "Vulnerability",
+      "D": "Control"
+    },
+    "answer": "A",
+    "explanation": "Risk assessment determines the likelihood and potential impact of security threats."
+  },
+  {
+    "id": 158,
+    "domain": "Security Principles",
+    "question": "Which principle reduces the chance of a single individual compromising critical tasks?",
+    "options": {
+      "A": "Segregation of duties",
+      "B": "Need-to-know",
+      "C": "Least privilege",
+      "D": "Defense in depth"
+    },
+    "answer": "A",
+    "explanation": "Segregation of duties divides responsibilities to minimize the risk of errors or fraud."
+  },
+  {
+    "id": 159,
+    "domain": "Security Principles",
+    "question": "Which type of control restricts system access using technology like authentication?",
+    "options": {
+      "A": "Technical",
+      "B": "Administrative",
+      "C": "Physical",
+      "D": "Detective"
+    },
+    "answer": "A",
+    "explanation": "Technical controls enforce security using technology, such as passwords, access control, or encryption."
+  },
+  {
+    "id": 160,
+    "domain": "Security Principles",
+    "question": "Which principle ensures information is shared only with authorized parties?",
+    "options": {
+      "A": "Need-to-know",
+      "B": "Least privilege",
+      "C": "Defense in depth",
+      "D": "Segregation of duties"
+    },
+    "answer": "A",
+    "explanation": "Need-to-know limits access to information based on necessity, ensuring confidentiality."
+  },
+  {
+    "id": 161,
+    "domain": "Security Principles",
+    "question": "Which type of control uses security guards or locks to protect assets?",
+    "options": {
+      "A": "Technical",
+      "B": "Administrative",
+      "C": "Physical",
+      "D": "Detective"
+    },
+    "answer": "C",
+    "explanation": "Physical controls prevent unauthorized access using tangible measures such as locks, fences, and security personnel."
+  },
+  {
+    "id": 162,
+    "domain": "Security Principles",
+    "question": "Which principle involves limiting user access to only what is required for their role?",
+    "options": {
+      "A": "Need-to-know",
+      "B": "Least privilege",
+      "C": "Defense in depth",
+      "D": "Segregation of duties"
+    },
+    "answer": "B",
+    "explanation": "Least privilege ensures users have only the permissions necessary for their tasks, reducing security risk."
+  },
+  {
+    "id": 163,
+    "domain": "Security Principles",
+    "question": "Which type of control monitors systems and notifies administrators of suspicious activity?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "B",
+    "explanation": "Detective controls identify security incidents after they occur, such as IDS or log monitoring."
+  },
+  {
+    "id": 164,
+    "domain": "Security Principles",
+    "question": "Which principle ensures systems continue operating during disruptions?",
+    "options": {
+      "A": "Availability",
+      "B": "Integrity",
+      "C": "Confidentiality",
+      "D": "Non-repudiation"
+    },
+    "answer": "A",
+    "explanation": "Availability ensures authorized users have access to systems and data even during adverse events."
+  },
+  {
+    "id": 165,
+    "domain": "Security Principles",
+    "question": "Which type of control fixes or restores systems after a security incident?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "C",
+    "explanation": "Corrective controls restore systems to a secure state after vulnerabilities are exploited or incidents occur."
+  },
+  {
+    "id": 166,
+    "domain": "Security Principles",
+    "question": "Which principle ensures that sensitive information is accessed only by authorized users?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Non-repudiation"
+    },
+    "answer": "A",
+    "explanation": "Confidentiality protects data from unauthorized disclosure."
+  },
+  {
+    "id": 167,
+    "domain": "Security Principles",
+    "question": "Which security principle ensures data is accurate, complete, and unaltered?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Authentication"
+    },
+    "answer": "B",
+    "explanation": "Integrity ensures that information remains correct and trustworthy, preventing unauthorized modifications."
+  },
+  {
+    "id": 168,
+    "domain": "Security Principles",
+    "question": "Which type of control prevents unauthorized access using technology?",
+    "options": {
+      "A": "Technical",
+      "B": "Administrative",
+      "C": "Physical",
+      "D": "Detective"
+    },
+    "answer": "A",
+    "explanation": "Technical controls enforce security through technology such as firewalls, authentication systems, and encryption."
+  },
+  {
+    "id": 169,
+    "domain": "Security Principles",
+    "question": "Which principle requires that sensitive operations involve more than one person?",
+    "options": {
+      "A": "Segregation of duties",
+      "B": "Least privilege",
+      "C": "Defense in depth",
+      "D": "Need-to-know"
+    },
+    "answer": "A",
+    "explanation": "Segregation of duties prevents fraud or error by distributing responsibilities among multiple individuals."
+  },
+  {
+    "id": 170,
+    "domain": "Security Principles",
+    "question": "Which control type includes security policies, procedures, and awareness programs?",
+    "options": {
+      "A": "Technical",
+      "B": "Administrative",
+      "C": "Physical",
+      "D": "Detective"
+    },
+    "answer": "B",
+    "explanation": "Administrative controls govern organizational practices to prevent, detect, or correct security incidents."
+  },
+  {
+    "id": 171,
+    "domain": "Security Principles",
+    "question": "Which principle ensures that actions can be traced to an individual?",
+    "options": {
+      "A": "Non-repudiation",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Confidentiality"
+    },
+    "answer": "A",
+    "explanation": "Non-repudiation provides evidence of actions to prevent individuals from denying them."
+  },
+  {
+    "id": 172,
+    "domain": "Security Principles",
+    "question": "Which principle requires multiple overlapping layers of security?",
+    "options": {
+      "A": "Defense in depth",
+      "B": "Least privilege",
+      "C": "Segregation of duties",
+      "D": "Need-to-know"
+    },
+    "answer": "A",
+    "explanation": "Defense in depth layers multiple controls to reduce the likelihood of a single failure compromising security."
+  },
+  {
+    "id": 173,
+    "domain": "Security Principles",
+    "question": "Which type of control detects issues after they have occurred?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "B",
+    "explanation": "Detective controls, like IDS and audit logs, identify security events after they happen."
+  },
+  {
+    "id": 174,
+    "domain": "Security Principles",
+    "question": "Which principle reduces risk by limiting access to what is necessary for the job?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Need-to-know",
+      "C": "Segregation of duties",
+      "D": "Defense in depth"
+    },
+    "answer": "A",
+    "explanation": "Least privilege minimizes exposure by granting users only the access required for their tasks."
+  },
+  {
+    "id": 175,
+    "domain": "Security Principles",
+    "question": "Which control type restores security after vulnerabilities are exploited?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "C",
+    "explanation": "Corrective controls mitigate effects or restore systems after security incidents."
+  },
+  {
+    "id": 176,
+    "domain": "Security Principles",
+    "question": "Which term refers to a potential danger that could exploit a vulnerability?",
+    "options": {
+      "A": "Threat",
+      "B": "Vulnerability",
+      "C": "Risk",
+      "D": "Control"
+    },
+    "answer": "A",
+    "explanation": "A threat is any event or actor that has the potential to cause harm by exploiting a vulnerability."
+  },
+  {
+    "id": 177,
+    "domain": "Security Principles",
+    "question": "Which principle ensures only those who require information for their role can access it?",
+    "options": {
+      "A": "Need-to-know",
+      "B": "Least privilege",
+      "C": "Segregation of duties",
+      "D": "Defense in depth"
+    },
+    "answer": "A",
+    "explanation": "Need-to-know restricts information access based on necessity for specific roles or tasks."
+  },
+  {
+    "id": 178,
+    "domain": "Security Principles",
+    "question": "Which type of control stops incidents before they occur?",
+    "options": {
+      "A": "Preventive",
+      "B": "Detective",
+      "C": "Corrective",
+      "D": "Administrative"
+    },
+    "answer": "A",
+    "explanation": "Preventive controls like firewalls and access restrictions act to prevent security incidents."
+  },
+  {
+    "id": 179,
+    "domain": "Security Principles",
+    "question": "Which principle ensures data remains correct and unaltered?",
+    "options": {
+      "A": "Integrity",
+      "B": "Confidentiality",
+      "C": "Availability",
+      "D": "Non-repudiation"
+    },
+    "answer": "A",
+    "explanation": "Integrity guarantees data accuracy and protects against unauthorized modifications."
+  },
+  {
+    "id": 180,
+    "domain": "Security Principles",
+    "question": "Which term describes flaws that can be exploited by threats?",
+    "options": {
+      "A": "Vulnerability",
+      "B": "Threat",
+      "C": "Risk",
+      "D": "Control"
+    },
+    "answer": "A",
+    "explanation": "Vulnerabilities are weaknesses in systems that could be exploited by threats."
+  }
+]
